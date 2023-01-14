@@ -1,0 +1,245 @@
+﻿heritage_selvatico = {
+    type = heritage
+}
+heritage_ciclico = {
+    type = heritage
+}
+heritage_japura = {
+    type = heritage
+}
+heritage_roraiman = {
+    type = heritage
+}
+heritage_jurua = {
+    type = heritage
+}
+heritage_amazonico = {
+    type = heritage
+}
+heritage_western_sertanejo = {
+    type = heritage
+}
+heritage_puru = {
+    type = heritage
+}
+heritage_tapajo = {
+    type = heritage
+}
+heritage_chacoan = {
+    type = heritage
+}
+heritage_cabano = {
+    type = heritage
+}
+heritage_austral = {
+    type = heritage
+}
+heritage_amish = {
+    type = heritage
+}
+heritage_mennonite = {
+    type = heritage
+}
+heritage_shtetl = {
+    type = heritage
+}
+heritage_jesuitic = {
+    type = heritage
+}
+heritage_andino = {
+    type = heritage
+}
+heritage_bajo_peruano = {
+    type = heritage
+}
+heritage_anishinaabe = {
+    type = heritage
+}
+heritage_windward = {
+    type = heritage
+}
+heritage_guyanan = {
+    type = heritage
+}
+heritage_arctic = {
+    type = heritage
+}
+heritage_arido = {
+    type = heritage
+}
+heritage_dene = {
+    type = heritage
+}
+heritage_boreal = {
+    type = heritage
+}
+heritage_patagon = {
+    type = heritage
+}
+heritage_californian = {
+    type = heritage
+}
+heritage_centroamericano = {
+    type = heritage
+}
+heritage_chileno = {
+    type = heritage
+}
+heritage_colombian = {
+    type = heritage
+}
+heritage_venezuelan = {
+    type = heritage
+}
+heritage_llanero = {
+    type = heritage
+}
+heritage_dixieland = {
+    type = heritage
+}
+heritage_ecuatoriano = {
+    type = heritage
+}
+heritage_costeiro = {
+    type = heritage
+}
+heritage_cafe_com_leite = {
+    type = heritage
+}
+heritage_northern_sertanejo = {
+    type = heritage
+}
+heritage_floridian = {
+    type = heritage
+}
+heritage_canayen = {
+    type = heritage
+}
+heritage_sulista = {
+    type = heritage
+}
+heritage_interior = {
+    type = heritage
+}
+heritage_plateau = {
+    type = heritage
+}
+heritage_platense = {
+    type = heritage
+}
+heritage_viejispano = {
+    type = heritage
+}
+heritage_lakelander = {
+    type = heritage
+}
+heritage_laurentian = {
+    type = heritage
+}
+heritage_louisianais = {
+    type = heritage
+}
+heritage_mesanglo = {
+    type = heritage
+}
+heritage_mesoamerican = {
+    type = heritage
+}
+heritage_midwestern = {
+    type = heritage
+}
+heritage_northlake = {
+    type = heritage
+}
+heritage_mid_atlantic = {
+    type = heritage
+}
+heritage_armorial = {
+    type = heritage
+}
+heritage_northwest_coast = {
+    type = heritage
+}
+heritage_new_englander = {
+    type = heritage
+}
+heritage_atlantic_canadian = {
+    type = heritage
+}
+heritage_wabanaki = {
+    type = heritage
+}
+heritage_north_pacific = {
+    type = heritage
+}
+heritage_columbian = {
+    type = heritage
+}
+heritage_gaucho = {
+    type = heritage
+}
+heritage_nazco = {
+    type = heritage
+}
+heritage_sequoyan = {
+    type = heritage
+}
+heritage_sioux = {
+    type = heritage
+}
+heritage_plains = {
+    type = heritage
+}
+heritage_prairie = {
+    type = heritage
+}
+heritage_dead_pre_event = {
+    type = heritage
+}
+heritage_rockland = {
+    type = heritage
+}
+heritage_frontieran = {
+    type = heritage
+}
+heritage_texan = {
+    type = heritage
+}
+heritage_serra_do_mar = {
+    type = heritage
+}
+heritage_subarctic = {
+    type = heritage
+}
+heritage_upland = {
+    type = heritage
+}
+heritage_xingu = {
+    type = heritage
+}
+heritage_leeward = {
+    type = heritage
+}
+heritage_novohispano = {
+    type = heritage
+}
+heritage_maya = {
+    type = heritage
+}
+heritage_vaquero = {
+    type = heritage
+}
+heritage_isthmian = {
+    type = heritage
+}
+heritage_mongolian = {
+    type = heritage
+}
+
+heritage_southern_chinese = {
+    type = heritage
+}
+
+heritage_western_chinese = {
+    type = heritage
+}

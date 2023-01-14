@@ -2,4 +2,21 @@
  tradition_ao_hippo_hunters_name:0 "Hippo Hunts"
  tradition_ao_hippo_hunters_desc:1 "To hunt the monsterous hippo is a tradition of the high nobility of our culture, allowing great men to proof themselves against nature." 
 
+ tradition_astronomers_name:0 "Natural Astronomers"
+ tradition_astronomers_desc:1 "This culture has looked at the sky since its inception, noticing the movements of the sun and moon and their patterns. They have thus an impressive catalogue of knowledge regarding the heavens."
+
  jade_blade_of_blood_desc:1 "A blade of remarkable quality, used by the Cantonese from across the pond. It is expertly crafted, depicting the legendary Jade Chairman on the handle. The Cantonese recommend the intense washing of one's hands after using the blade for its primary function. \n\n#warning when equiped, the owner of this artifact may castrate prisoners.#! @warning_icon!"
+
+
+ language_mongolian_name:0 "Mongolian"
+ language_tai_kadai_name:0 "Tai-Kadai"
+ language_bai_name:0 "Bai"
+ language_hakka_name:0 "Hakka"
+ language_mandarin_name:0 "Mandarin"
+ language_min_name:0 "Min"
+
+ mercenary_company_horde:0 "The Horde"
+
+ khalka_mongols:0 "Khalka-Mongols"
+ dai:0 "Dai"
+ kam:0 "Kam"
