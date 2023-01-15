@@ -29,10 +29,8 @@
 		parameters = {
 		hostility_override_abrahamic_hostility_doctrine = 1
 		hostility_override_harmonic_hostility_doctrine = 1
-		hostility_override_andean_hostility_doctrine = 1
 		hostility_override_anachronous_hostility_doctrine = 1
 		hostility_override_amerindian_hostility_doctrine = 1
-		hostility_override_mesoamerican_hostility_doctrine = 1
 		hostility_override_pagan_hostility_doctrine = 1
 		hostility_override_special_doctrine_heirs_of_atlantis = 2
 		hostility_override_tenet_hear_me_roar = 2
