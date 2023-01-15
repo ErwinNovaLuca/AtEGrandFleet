@@ -1,0 +1,51 @@
+﻿china_lau_he_china1 = { # The Admiral
+    name = "He"
+    dynasty = dynn_china_lau
+    female = no
+    disallow_random_traits = yes
+    
+    culture = cantonese
+    religion = inti_religion
+
+	learning = 20
+	intrigue = 17
+	stewardship = 12
+	martial = 15
+	diplomacy = 23
+
+	trait = ambitious
+	trait = brave
+	trait = arrogant
+	trait = education_diplomacy_4 
+	trait = physique_good_2 
+	trait = diplomat 
+	trait = strategist 
+	trait = forder 
+	trait = adventurer 
+	trait = journaller 
+	
+	
+    
+	2636.7.11 = {
+        birth = yes   
+ 
+	}
+
+	2556.3.20 = {
+	get_title = k_treasure_fleet
+	}
+
+    2656.1.1 = {
+	give_nickname = nick_eastern_dragon
+
+	effect = { 
+	immediate = {
+	set_character_flag = single_combat_duel_armor
+	}
+	after = {
+	remove_character_flag = single_combat_duel_armor
+	}	
+	}
+    }
+
+}

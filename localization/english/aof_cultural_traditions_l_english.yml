@@ -14,9 +14,16 @@
  language_hakka_name:0 "Hakka"
  language_mandarin_name:0 "Mandarin"
  language_min_name:0 "Min"
-
+ language_cantonese_name:0 "Cantonese" 
+ 
  mercenary_company_horde:0 "The Horde"
 
  khalka_mongols:0 "Khalka-Mongols"
  dai:0 "Dai"
  kam:0 "Kam"
+ cantonese:0 "Cantonese"
+
+ nick_eastern_dragon:1 "The Dragon from the East" 
+
+ k_treasure_fleet:0 "The Treasure Fleet"
+ k_treasure_fleet_adj:0 "Treasure Fleet"

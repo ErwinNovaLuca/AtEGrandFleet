@@ -1,0 +1,6 @@
+﻿k_treasure_fleet = { #Admiral of the Treasure Fleet
+	color = { 100 255 200 }
+	landless = yes
+	destroy_if_invalid_heir = no
+	definite_form = yes
+	}

@@ -3035,3 +3035,20 @@ language_min = {
     }
     color = { 178 143 182 }
 }
+
+language_cantonese = { 
+    type = language
+    is_shown = {
+        language_is_shown_trigger = {
+            LANGUAGE = language_cantonese 
+        }
+    }
+    ai_will_do = {
+        value = 10 
+        if = {
+            limit = { has_cultural_pillar = language_cantonese }
+            multiply = 10
+        }
+    }
+    color = { 163 8 0 }
+}

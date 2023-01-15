@@ -1,0 +1,35 @@
+﻿cantonese = {
+        color = { 163 8 0 }
+        
+        
+        ethos = ethos_courtly
+        heritage = heritage_southern_chinese
+        language = language_tai_kadai 
+        martial_custom = martial_custom_equal
+        name_list = name_list_han
+        
+        traditions = {
+			tradition_maritime_mercantilism 
+			tradition_wedding_ceremonies 
+			tradition_artisans 
+        }
+        
+	coa_gfx = { chinese_group_coa_gfx }
+
+        building_gfx = {
+			indian_building_gfx 
+        }
+        clothing_gfx = {
+			mongol_clothing_gfx 
+        }
+        unit_gfx = {
+			mongol_unit_gfx 
+        }
+        
+        ethnicities = {
+            
+			100 = asian
+		
+        }
+        
+}

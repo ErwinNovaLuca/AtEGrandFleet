@@ -1,0 +1,41 @@
+﻿#cultural nicknames
+nick_the_liquor = { is_bad = yes }
+nick_fabulous_he = {} #Prince Ali
+nick_an_t_siorraidh = {} #Caitlin Beaton
+nick_the_imposter = {} #King Martyn Stephanyk
+nick_cherwona = {} #Hetmanka Zoria
+nick_qamar_al_din = {} #Yaqub Dibiazah
+nick_quiso_crecer = {} #El Niño Que No Quiso Crecer
+nick_the_restorer = {} #Hispaniola Restorer
+nick_liberty = {} #America Founder
+nick_orenda = {} #Haudenosaunee
+nick_skyscraper = {}
+nick_meritorious = {}
+nick_ace = {}
+nick_manly = {}
+nick_moose = {}
+nick_steel = {}
+nick_ice = {}
+nick_young = {}
+nick_unrecognized = {}
+nick_spitfire = {}
+nick_poppy_lady = {}
+nick_anzac = {}
+nick_valorous = {}
+nick_mountain = {}
+nick_determined = {}
+nick_hardy = {}
+nick_star = {}
+nick_solus = {}
+nick_hero_way = {}
+nick_last = {}
+nick_bronco = {} #Calgry Caliph
+nick_the_bonnie_bonnie_lass = {} #Alastriona
+nick_de_na_brosnachadh-catha = {} #North Shore
+
+#presidency nicknames
+nick_the_jumbo = {}
+nick_hawkeye = {}
+nick_mad_dog = {}
+
+nick_eastern_dragon
