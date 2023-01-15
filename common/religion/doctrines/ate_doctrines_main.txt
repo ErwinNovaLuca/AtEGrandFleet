@@ -1,0 +1,730 @@
+﻿	special_tolerance = {
+	group = "main_group"
+	
+	is_available_on_create = {
+		religion_tag = christianity_religion # Not just a christianity special tolerance group, but only christianity-related tolerances need be shown in faith creation at the moment
+	}
+
+	special_doctrine_earth_mother = {
+		is_shown = {
+			has_doctrine = special_doctrine_earth_mother
+		}
+
+		can_pick = { always = no }
+		
+		parameters = {
+			hostility_override_special_doctrine_earth_mother = 1
+			hostility_override_special_doctrine_naked_priests = 1
+		}
+	}
+
+	# Confucian Faith
+	special_doctrine_made_in_china = {
+		is_shown = {
+			has_doctrine = special_doctrine_made_in_china 
+		}
+
+		can_pick = { always = no }
+		
+		parameters = {
+		hostility_override_abrahamic_hostility_doctrine = 1
+		hostility_override_harmonic_hostility_doctrine = 1
+		hostility_override_andean_hostility_doctrine = 1
+		hostility_override_anachronous_hostility_doctrine = 1
+		hostility_override_amerindian_hostility_doctrine = 1
+		hostility_override_mesoamerican_hostility_doctrine = 1
+		hostility_override_pagan_hostility_doctrine = 1
+		hostility_override_special_doctrine_heirs_of_atlantis = 2
+		hostility_override_tenet_hear_me_roar = 2
+		}
+	}
+
+
+	# Inca Faith
+	special_doctrine_crown_of_the_andes = {
+		is_shown = {
+			has_doctrine = special_doctrine_crown_of_the_andes
+		}
+
+		can_pick = { always = no }
+		
+		parameters = {
+			same_hof_hostility_override = 1
+		}
+	}
+
+	# Spiritism
+	special_doctrine_teachings_of_kardec = {
+		is_shown = {
+			has_doctrine = special_doctrine_teachings_of_kardec
+		}
+
+		can_pick = { always = no }
+		
+		parameters = {
+			hostility_same_religion = 1
+			hostility_same_family = 1
+			hostility_others = 2
+		}
+	}
+	
+	#bahai
+	special_doctrine_progressive_revelation = {
+		is_shown = {
+			has_doctrine = special_doctrine_progressive_revelation
+		}
+
+		can_pick = { always = no }
+		
+		parameters = {
+			hostility_same_religion = 1
+			hostility_same_family = 1
+			hostility_others = 1
+		}
+	}
+	
+	# Judaism
+	special_doctrine_shema_yisrael = {
+		is_shown = {
+			has_doctrine = special_doctrine_shema_yisrael
+		}
+
+		can_pick = { always = no }
+		
+		parameters = {
+			hostility_override_special_doctrine_shema_yisrael = 1
+		}
+	}
+	
+	special_doctrine_righteous_among_gentiles = {
+		is_shown = {
+			has_doctrine = special_doctrine_righteous_among_gentiles
+		}
+
+		can_pick = { always = no }
+		
+		parameters = {
+			hostility_override_special_doctrine_manyfold_path = 1
+		}
+	}
+
+	# Tridentine
+	special_doctrine_syllabus_of_errors = {
+		is_shown = {
+			OR = {
+				has_doctrine = special_doctrine_latin_rite
+				has_doctrine = special_doctrine_syllabus_of_errors
+				has_doctrine = special_doctrine_catholic_heritage
+			}
+		}
+		
+		piety_cost = {
+			value = faith_doctrine_cost_low
+			if = {
+				limit = { has_doctrine = special_doctrine_syllabus_of_errors }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		
+		parameters = {
+			hostility_same_religion = 3
+			hostility_same_family = 3
+			hostility_others = 3
+		}
+	}
+	
+	# Catholic
+	special_doctrine_latin_rite = { #this can't be selected on creating a new faith
+		is_shown = {
+			OR = {
+				has_doctrine = special_doctrine_latin_rite
+				has_doctrine = special_doctrine_syllabus_of_errors
+				has_doctrine = special_doctrine_catholic_heritage
+			}
+		}
+
+		can_pick = {
+			custom_description = {
+				text = special_doctrine_latin_rite_cannot_pick
+				always = no
+			}
+		}
+	
+		name = {
+			first_valid = {
+				triggered_desc = {
+					trigger = {
+						ROOT = faith:byzantine_rite
+					}
+					desc = special_doctrine_latin_rite_greek_rite
+				}
+				desc = special_doctrine_latin_rite_name
+			}
+		}
+		
+		parameters = {
+			hostility_override_tenet_pastoral_isolation = 0
+			hostility_override_special_doctrine_latin_rite = 1
+			hostility_override_special_doctrine_mainstream_protestant = 1
+			hostility_override_special_doctrine_catholic_heritage = 1
+			hostility_override_special_doctrine_eastern_rite = 1
+			hostility_override_special_doctrine_native_american_church = 1
+			same_hof_hostility_override = 1
+			hostility_override_special_doctrine_lion_of_zion = 2
+			hostility_override_special_doctrine_teachings_of_kardec = 2
+		}
+	}
+	
+	special_doctrine_catholic_heritage = {
+		is_shown = {
+			OR = {
+				has_doctrine = special_doctrine_latin_rite
+				has_doctrine = special_doctrine_syllabus_of_errors
+				has_doctrine = special_doctrine_catholic_heritage
+			}
+		}
+		
+		piety_cost = {
+			value = faith_doctrine_cost_low
+			if = {
+				limit = { has_doctrine = special_doctrine_catholic_heritage }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		
+		parameters = {
+			hostility_override_tenet_pastoral_isolation = 0
+			hostility_override_special_doctrine_catholic_heritage = 1
+			hostility_override_special_doctrine_latin_rite = 1
+			hostility_override_special_doctrine_saintly_spirits = 1
+			hostility_override_special_doctrine_native_american_church = 2
+			hostility_override_special_doctrine_lion_of_zion = 2
+			hostility_override_special_doctrine_teachings_of_kardec = 2
+		}
+	}
+	
+	# Protestant
+	special_doctrine_mainstream_protestant = { #this can't be selected on creating a new faith
+		is_shown = {
+			OR = {
+				has_doctrine = special_doctrine_mainstream_protestant
+				has_doctrine = special_doctrine_protestant_background
+				has_doctrine = special_doctrine_old_covenant
+			}
+		}
+
+		can_pick = {
+			custom_description = {
+				text = special_doctrine_mainstream_protestant_cannot_pick
+				always = no
+			}
+		}
+		
+		parameters = {
+			hostility_override_tenet_pastoral_isolation_protestant = 0
+			hostility_override_special_doctrine_mainstream_protestant = 1
+			hostility_override_special_doctrine_latin_rite = 1
+			hostility_override_special_doctrine_protestant_background = 1
+			hostility_override_special_doctrine_old_covenant = 1
+			hostility_override_special_doctrine_eastern_rite = 1
+			hostility_override_special_doctrine_native_american_church = 2
+		}
+	}
+	
+	special_doctrine_protestant_background = {
+		is_shown = {
+			OR = {
+				has_doctrine = special_doctrine_mainstream_protestant
+				has_doctrine = special_doctrine_protestant_background
+				has_doctrine = special_doctrine_old_covenant
+			}
+		}
+		
+		piety_cost = {
+			value = faith_doctrine_cost_low
+			if = {
+				limit = { has_doctrine = special_doctrine_protestant_background }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		
+		parameters = {
+			hostility_override_tenet_pastoral_isolation_protestant = 0
+			hostility_override_special_doctrine_protestant_background = 1
+			hostility_override_special_doctrine_mainstream_protestant = 1
+			hostility_override_special_doctrine_old_covenant = 1
+			hostility_override_special_doctrine_native_american_church = 2
+		}
+	}
+	
+	special_doctrine_native_american_church = {
+		is_shown = {
+			OR = {
+				has_doctrine = special_doctrine_native_american_church
+				has_doctrine = special_doctrine_red_road
+			}
+		}
+		
+		can_pick = {
+			custom_description = {
+				text = special_doctrine_native_american_church_cannot_pick
+				always = no
+			}
+		}
+		
+		parameters = {
+			hostility_override_special_doctrine_latter_day_saints = 1
+			hostility_override_special_doctrine_latin_rite = 1
+			hostility_override_special_doctrine_original_church = 1
+			hostility_override_special_doctrine_eastern_rite = 1
+			hostility_override_special_doctrine_red_road = 1
+			hostility_override_special_doctrine_protestant_background = 2
+			hostility_override_special_doctrine_mainstream_protestant = 2
+			hostility_override_special_doctrine_catholic_heritage = 2
+			hostility_override_special_doctrine_saintly_spirits = 2
+			hostility_override_special_doctrine_seven_fires = 2
+		}
+	}
+	
+	special_doctrine_red_road = {
+		is_shown = {
+			OR = {
+				has_doctrine = special_doctrine_native_american_church
+				has_doctrine = special_doctrine_red_road
+			}
+		}
+		
+		piety_cost = {
+			value = faith_doctrine_cost_low
+			if = {
+				limit = { has_doctrine = special_doctrine_red_road }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		
+		parameters = {
+			hostility_override_special_doctrine_native_american_church = 1
+			hostility_override_special_doctrine_seven_fires = 2
+		}
+	}
+	
+	# Cult of Saints
+	special_doctrine_saintly_spirits = { #can't be created right now
+		is_shown = {
+			has_doctrine = special_doctrine_saintly_spirits
+		}
+
+		can_pick = { always = no }
+		
+		parameters = {
+			hostility_override_special_doctrine_saintly_spirits = 1
+			hostility_override_special_doctrine_catholic_heritage = 1
+			hostility_override_special_doctrine_saintly_death = 1
+			hostility_override_special_doctrine_teachings_of_kardec = 1
+			same_hof_hostility_override = 1
+			hostility_override_special_doctrine_lion_of_zion = 2
+			hostility_override_special_doctrine_native_american_church = 2
+		}
+	}
+
+	special_doctrine_saintly_death = { #can't be created right now
+		is_shown = {
+			has_doctrine = special_doctrine_saintly_death
+		}
+
+		can_pick = { always = no }
+		
+		parameters = {
+			hostility_override_special_doctrine_saintly_spirits = 1
+			hostility_override_special_doctrine_saintly_death = 1
+			hostility_override_special_doctrine_lion_of_zion = 2
+		}
+	}
+	
+	# Mormon
+	special_doctrine_latter_day_saints = {
+		is_shown = {
+			OR = {
+				has_doctrine = special_doctrine_latter_day_saints
+				has_doctrine = special_doctrine_original_church
+			}
+		}
+		
+		piety_cost = {
+			value = faith_doctrine_cost_low
+			if = {
+				limit = { has_doctrine = special_doctrine_latter_day_saints }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		
+		parameters = {
+			hostility_override_special_doctrine_latter_day_saints = 1
+			hostility_override_special_doctrine_original_church = 1
+			hostility_override_special_doctrine_native_american_church = 1
+		}
+		
+		traits = {
+			sins = { 
+				chaste = 2
+				drunkard = 2
+			}		
+		}
+	}
+	
+	special_doctrine_original_church = { #this should do for now
+		is_shown = {
+			OR = { 
+				has_doctrine = special_doctrine_latter_day_saints
+				has_doctrine = special_doctrine_original_church
+			}
+		}
+		
+		piety_cost = {
+			value = faith_doctrine_cost_low
+			if = {
+				limit = { has_doctrine = special_doctrine_original_church }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		
+		parameters = {
+			hostility_override_special_doctrine_original_church = 1
+			hostility_override_special_doctrine_latter_day_saints = 1
+			hostility_override_special_doctrine_latin_rite = 1
+			hostility_override_special_doctrine_mainstream_protestant = 1
+			hostility_override_special_doctrine_native_american_church = 1
+		}
+		traits = {
+			sins = { 
+				drunkard
+			}		
+		}
+	}
+	
+	special_doctrine_eastern_rite = { #this can't be selected on creating a new faith
+		is_shown = {
+			OR = {
+				has_doctrine = special_doctrine_eastern_rite
+			}
+		}
+
+		can_pick = {
+			custom_description = {
+				text = special_doctrine_latin_rite_cannot_pick
+				always = no
+			}
+		}
+	
+		
+		parameters = {
+			hostility_override_special_doctrine_latin_rite = 1
+			hostility_override_special_doctrine_mainstream_protestant = 1
+			hostility_override_special_doctrine_native_american_church = 1
+			hostility_override_special_doctrine_lion_of_zion = 2
+		}
+	}
+	
+	# Hates everyone and is hated by everyone - Functional "Other" option for when the player can't pick anything else
+	special_doctrine_apostate = {
+		is_shown = {
+			NOR = {
+				has_doctrine = special_doctrine_latter_day_saints
+				has_doctrine = special_doctrine_original_church
+				has_doctrine = special_doctrine_shema_yisrael
+			}
+		}
+		
+		piety_cost = {
+			value = faith_doctrine_cost_low
+			if = {
+				limit = { has_doctrine = special_doctrine_apostate }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		
+		character_modifier = {
+			advantage_against_coreligionists = 5
+		}
+		
+		parameters = {
+			same_hof_hostility_override = 1
+		}
+	}
+	
+	special_doctrine_maya_harmony = { #can't be created right now
+		is_shown = {
+			has_doctrine = special_doctrine_maya_harmony
+		}
+
+		can_pick = { always = no }
+		
+		parameters = {
+			hostility_override_special_doctrine_saintly_spirits = 1
+			hostility_override_special_doctrine_maya_harmony = 1
+			hostility_override_special_doctrine_saintly_death = 2
+		}
+	}
+}
+
+doctrine_americanist_tolerance = {
+	group = "main_group"
+	is_available_on_create = {
+		religion_tag = americanist_religion
+	}
+	
+	special_doctrine_freedom_of_speech = {
+		piety_cost = {
+			value = faith_doctrine_cost_low # always a small extra cost, regardless of if the old faith had this doctrine
+		}
+		
+		can_pick = {
+			custom_description = {
+				text = require_doctrine_temporal_head_trigger
+				flag:doctrine_temporal_head = { is_in_list = selected_doctrines }
+			}
+		}
+		
+		parameters = {
+			hostility_override_special_doctrine_freedom_of_speech = 1
+			follows_americanist_presidency = yes
+		}
+	}
+	special_doctrine_sic_semper_tyrannis = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+			if = {
+				limit = { has_doctrine = special_doctrine_sic_semper_tyrannis }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		
+		character_modifier = {
+			advantage_against_coreligionists = 2
+			attacker_advantage = 2
+		}
+	}
+}
+
+doctrine_rastafari_tolerance = {
+	group = "main_group"
+	is_available_on_create = {
+		religion_tag = rastafari_religion
+	}
+	
+	special_doctrine_lion_of_zion = {
+		parameters = {
+			hostility_override_special_doctrine_lion_of_zion = 0
+			hostility_override_special_doctrine_catholic_heritage = 2
+			hostility_override_special_doctrine_protestant_background = 2
+			hostility_override_special_doctrine_saintly_spirits = 2
+		}
+	}
+}
+
+doctrine_karmic_tolerance = {
+	group = "main_group"
+	is_available_on_create = {
+		religion_tag = guruist_religion
+	}
+	
+	special_doctrine_manyfold_path = {
+		parameters = {
+			hostility_override_special_doctrine_manyfold_path = 1
+			hostility_override_special_doctrine_hang_loose = 1
+			hostility_override_special_doctrine_spiritualistic_cosmology = 1
+			hostility_override_special_doctrine_silicon_covens = 1
+			hostility_override_special_doctrine_righteous_among_gentiles = 1
+			hostility_override_special_doctrine_render_unto_caesar = 1
+			hostility_override_special_doctrine_occidental_coexistence = 1
+		}
+	}
+	
+	special_doctrine_sagely_resistance = {
+		is_shown = {
+			has_doctrine = special_doctrine_sagely_resistance
+		}
+		parameters = {
+			hostility_override_special_doctrine_manyfold_path = 2
+			hostility_override_special_doctrine_hang_loose = 1
+			hostility_override_special_doctrine_spiritualistic_cosmology = 1
+			hostility_override_special_doctrine_silicon_covens = 1
+			hostility_override_special_doctrine_righteous_among_gentiles = 1
+			hostility_override_special_doctrine_render_unto_caesar = 1
+			hostility_override_special_doctrine_occidental_coexistence = 1
+		}
+	}
+	special_doctrine_natural_order = {
+		is_shown = {
+			has_doctrine = special_doctrine_natural_order
+		}
+		parameters = {
+			hostility_override_special_doctrine_manyfold_path = 2
+		}
+	}
+	special_doctrine_heirs_of_atlantis = {
+		is_shown = {
+			has_doctrine = special_doctrine_heirs_of_atlantis
+		}
+		parameters = {
+			hostility_override_special_doctrine_manyfold_path = 2
+		}
+	}
+}
+
+doctrine_athletic_tolerance = { 
+	group = "main_group"
+	is_available_on_create = {
+		religion_tag = athletic_religion
+	}
+	
+	special_doctrine_hang_loose = {
+		parameters = {
+			hostility_override_harmonic_hostility_doctrine = 1
+		}
+	}
+}
+
+doctrine_abbasiyya_tolerance = { 
+	group = "main_group"
+	is_available_on_create = {
+		ROOT = faith:abbasiyya
+	}
+	
+	special_doctrine_occidental_coexistence = {
+		parameters = {
+			hostility_override_special_doctrine_manyfold_path = 1
+		}
+	}
+}
+
+
+doctrine_digital_tolerance = { 
+	group = "main_group"
+	is_available_on_create = {
+		religion_tag = digital_religion
+	}
+	
+	special_doctrine_silicon_covens = {
+		parameters = {
+			hostility_override_special_doctrine_manyfold_path = 1
+		}
+	}
+}
+
+doctrine_rosicrucian_tolerance = { 
+	group = "main_group"
+	is_available_on_create = {
+		religion_tag = rosicrucian_religion
+	}
+	
+	special_doctrine_render_unto_caesar = {
+		parameters = {
+			hostility_override_special_doctrine_manyfold_path = 1
+			hostility_override_abrahamic_hostility_doctrine = 2
+			
+		}
+	}
+}
+
+doctrine_medicine_tolerance = {
+	group = "main_group"
+	is_available_on_create = {
+		religion_tag = medicine_religion
+	}
+	
+	special_doctrine_seven_fires = {
+		is_shown = {
+			OR = {
+				has_doctrine = special_doctrine_seven_fires
+			}
+		}
+		
+		parameters = {
+			hostility_override_special_doctrine_native_american_church = 2
+			hostility_override_special_doctrine_red_road = 2
+		}
+	}
+}
+
+doctrine_post_adventist_tolerance = {
+	group = "main_group"
+	is_available_on_create = {
+		religion_tag = post_adventism_religion
+	}
+	
+	special_doctrine_lest_we_forget = {
+		parameters = {
+			hostility_override_special_doctrine_lest_we_forget = 0
+		}
+		traits = {
+			virtues = {
+				wounded_1 = 2
+				wounded_2 = 2
+				wounded_3 = 2
+				scarred = 2
+				disfigured = 2
+				maimed = 2
+				one_legged = 2
+				one_eyed = 2
+			}
+		}
+	}
+}
+
+doctrine_astronomer_tolerance = {
+	group = "main_group"
+	is_available_on_create = {
+		religion_tag = astronomer_religion
+	}
+	
+	special_doctrine_atheistic_cosmology = {
+		parameters = {
+			hostility_override_special_doctrine_atheistic_cosmology = 0
+		}
+		character_modifier = {
+			advantage_against_coreligionists = 5
+		}
+	}
+	
+	special_doctrine_spiritualistic_cosmology = {
+		parameters = {
+			hostility_override_special_doctrine_spiritualistic_cosmology = 0
+			hostility_override_harmonic_hostility_doctrine = 1
+		}
+	}
+}
+doctrine_masonic_tolerance = {
+	group = "main_group"
+	is_available_on_create = {
+		OR = {
+			ROOT = faith:shriner
+			ROOT = faith:masonic
+			ROOT = faith:quetzaltec
+			ROOT = faith:architecturalist
+			ROOT = faith:farrapo
+		}
+	}
+
+	special_doctrine_masonic_origins = {
+		parameters = {
+			hostility_override_special_doctrine_masonic_origins = 1
+		}
+	}
+}
+
+doctrine_dene_tolerance = {
+	group = "main_group"
+	is_available_on_create = {
+		OR = {
+			religion_tag = navajo_religion
+			religion_tag = dene_religion
+		}
+	}
+
+	special_doctrine_na_dene_traditions = {
+		parameters = {
+			hostility_override_special_doctrine_na_dene_traditions = 1
+		}
+	}
+}

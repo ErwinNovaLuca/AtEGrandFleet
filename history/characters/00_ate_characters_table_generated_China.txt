@@ -5,7 +5,7 @@
     disallow_random_traits = yes
     
     culture = cantonese
-    religion = inti_religion
+    religion = new_wave_confucianism 
 
 	learning = 20
 	intrigue = 17

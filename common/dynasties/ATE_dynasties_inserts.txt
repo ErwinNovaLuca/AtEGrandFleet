@@ -1,6 +1,6 @@
 dynn_china_lau = {
     name = "Lau"
-    culture = khalka_mongols 
+    culture = cantonese
     motto = "One Day, A Thousand Miles" 
     
 }

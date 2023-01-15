@@ -27,3 +27,27 @@
 
  k_treasure_fleet:0 "The Treasure Fleet"
  k_treasure_fleet_adj:0 "Treasure Fleet"
+
+ building_hollywoo_sign:1 "Hollywoo Sign"
+ building_hollywoo_sign_02:1 "Hollywoo Sign"
+ building_type_hollywoo_sign:1 "Hollywoo Sign" 
+ building_type_hollywoo_sign_02:1 "Hollywoo Sign" 
+ building_hollywoo_sign_desc:1 "Above, on the hills of Santa Monica, the white letters of Hollywoo stand imposingly above the community of Los Angeles. Once the target of destruction by the christians of the region, who believed Hollywoo to be a pagan god from before the Event, the sign came under the protection of the graceful Guru and his followers. Since then, the sign remains a symbol of culture and acceptance. Whatever Hollywoo may have been, this old God won't be forgotten and his inspiration, touching the people of Los Angeles and the builders of this monument, won't go to waste."  
+ building_hollywoo_sign_02_desc:1 "Above, on the hills of Santa Monica, the white letters of Hollywoo stand imposingly above the community of Los Angeles. Once the target of destruction by the christians of the region, who believed Hollywoo to be a pagan god from before the Event, the sign came under the protection of the graceful Guru and his followers. Since then, the sign remains a symbol of culture and acceptance. Whatever Hollywoo may have been, this old God won't be forgotten and his inspiration, touching the people of Los Angeles and the builders of this monument, won't go to waste."
+
+ new_wave_confucianism:0 "Holy Confucian Church"  
+ new_wave_confucianism_adherent:1 "New Confucianist"
+ new_wave_confucianism_adherent_plural:1 "New Confucianists" 
+ new_wave_confucianism_desc:0 "According to the Chinese, Confucianism has become a contentious topic in their land of origin, with animosity between those of the Confucian Church, who have adopted the liturgy of Confucianism into similar practices as Chinese Christians, Jews and Muslims, while maintaining an unique sense of spirituality instead of religiosity, and #"Old Confucianists#", who shame the practice of the churches and seek to maintain Confucian thinking in its purest form."
+
+ chinese_philosophies_religion:0 "Chinese Wisdom" 
+ chinese_philosophies_religion_adj:0 "Chinese Wisdom"
+
+ special_doctrine_made_in_china_name:1 "Made in China"
+ special_doctrine_made_in_china_desc:0 "Hopping from across the pond, Chinese philosophy has no real axe to grind with any New World religion." 
+
+ doctrine_parameter_hostility_override_anachronous_hostility_doctrine:2 "Considers Anachronous [faiths|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_amerindian_hostility_doctrine:2 "Considers Amerindian [faiths|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_pagan_hostility_doctrine:2 "Considers Folkloric [faiths|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_special_doctrine_heirs_of_atlantis:2 "Considers [faiths|E] with the Heirs of Atlantis doctrine to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_tenet_hear_me_roar:2 "Considers [faiths|E] with the Hear me Roar tenet to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
