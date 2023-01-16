@@ -1,6 +1,18 @@
+dynn_suranime_van_waal = {
+    name = "van Waal-Den Bosch"
+    culture = sranan
+    motto = "Cunning like the Frog" 
+    
+}
+
 dynn_china_lau = {
     name = "Lau"
     culture = cantonese
     motto = "One Day, A Thousand Miles" 
-    
+}
+
+dynn_china_saina = {
+    name = Sāinà"
+    culture = han
+    motto = "Difficult to Observe" 
 }

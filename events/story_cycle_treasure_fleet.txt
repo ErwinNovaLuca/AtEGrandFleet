@@ -1,0 +1,56 @@
+﻿namespace = treasure_fleet
+
+#Events for the Treasure Fleet Story Cycle
+
+### 
+treasure_fleet.0001 = {
+	type = character_event
+	title = treasure_fleet.0001.t
+	desc = treasure_fleet.0001.desc
+	theme = hunting
+	override_background = docks
+
+	right_portrait = { 
+	character = root
+	animation = personality_honorable
+	}
+
+	trigger = {
+	current_year > 2700
+	OR = { 
+	root = { has_title = e_california }
+	top_liege = { has_title = e_california }
+	}
+	}
+
+	immediate = {
+		debug_log = "Chinese appeared!"
+		debug_log_date = yes
+	}
+	
+	option = { 
+	name = { text = treasure_fleet.0001.a }
+	trigger = { NOT = { OR = { has_trait = craven has_trait = cynical } } }
+	}
+
+	option = { 
+	name = { text = treasure_fleet.0001.b }
+	trigger = { has_trait = craven }
+	trait = craven 
+	add_stress = 15
+	}
+
+	option = { 
+	name = { text = treasure_fleet.0001.c }
+	trigger = { has_trait = cynical }
+	trait = cynical
+	
+	}
+
+	option = { 
+	name = { text = treasure_fleet.0001.d }
+	trigger = { has_trait = trusting }
+	trait = trusting
+	add_prestige = 10
+	}
+}

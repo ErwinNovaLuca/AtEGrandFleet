@@ -1,0 +1,140 @@
+﻿china_lau_he_china1 = { # The Admiral
+    name = "He"
+    dynasty = dynn_china_lau
+    female = no
+    disallow_random_traits = yes
+    
+    culture = cantonese
+    religion = new_wave_confucianism 
+
+	learning = 20
+	intrigue = 17
+	stewardship = 12
+	martial = 15
+	diplomacy = 23
+
+	trait = ambitious
+	trait = brave
+	trait = arrogant
+	trait = education_diplomacy_4 
+	trait = physique_good_2 
+	trait = diplomat 
+	trait = strategist 
+	trait = forder 
+	trait = adventurer 
+	trait = journaller 
+	
+	
+    
+	2636.7.11 = {
+        birth = yes   
+ 
+	}
+
+	2656.3.20 = {
+	get_title = k_treasure_fleet
+	}
+
+
+    2642.2.3 = {
+    add_spouse = china_xiuying_china1 
+    }
+
+    2656.1.1 = {
+	give_nickname = nick_eastern_dragon
+
+	effect = { 
+	immediate = {
+	set_character_flag = single_combat_duel_armor
+	}
+	after = {
+	remove_character_flag = single_combat_duel_armor
+	}	
+	}
+    }
+
+}
+
+china_xi_huan_china1 = { # The Right Hand Man
+    name = "Huan"
+    female = no
+    disallow_random_traits = no
+    
+    culture = han
+    religion = new_wave_confucianism 
+
+	trait = patient
+	trait = education_diplomacy_2
+	trait = adventurer 
+	
+	
+    
+	2619.2.23 = {
+        birth = yes   
+ 
+	}
+
+
+
+    2656.1.1 = {
+    set_employer = china_lau_he_china1 
+    }
+
+}
+
+china_zang_sāinà_china1 = { # The Rock
+    name = "Zang"
+    female = no
+    disallow_random_traits = no
+    dynasty = dynn_china_saina
+
+    culture = han
+    religion = new_wave_confucianism 
+
+	trait = ambitious
+	trait = gregarious
+	trait = education_martial_3
+	trait = giant 
+	trait = organizer 
+
+	martial = 18
+	prowress = 12
+	
+    
+	2649.3.18 = {
+        birth = yes   
+ 
+	}
+
+
+
+    2656.1.1 = {
+    set_employer = china_lau_he_china1 
+    }
+
+}
+
+china_xiuying_china1 = { 
+    name = "Xiuying"
+    female = yes
+    disallow_random_traits = no
+
+    culture = han
+    religion = new_wave_confucianism 
+
+	trait = cancer
+	
+	2649.3.18 = {
+        birth = yes   
+ 
+	}
+
+    2642.2.3 = {
+    add_spouse = china_lau_he_china1 
+    }
+
+    2557.5.3 = {
+   death = "2557.5.3"
+    }
+
+}

@@ -243,3 +243,7 @@ heritage_southern_chinese = {
 heritage_western_chinese = {
     type = heritage
 }
+
+heritage_northern_chinese = {
+    type = heritage
+}

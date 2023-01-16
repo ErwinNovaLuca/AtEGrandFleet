@@ -2,8 +2,15 @@
  tradition_ao_hippo_hunters_name:0 "Hippo Hunts"
  tradition_ao_hippo_hunters_desc:1 "To hunt the monsterous hippo is a tradition of the high nobility of our culture, allowing great men to proof themselves against nature." 
 
+ tradition_martial_artistry_name:0 "Martial Artistry"
+ tradition_martial_artistry_desc:1 "This culture is known for its various flavours of defensive and offensive philosophies. Due to this, many members are at least fluid in one of the many martial arts."
+
+
  tradition_astronomers_name:0 "Natural Astronomers"
  tradition_astronomers_desc:1 "This culture has looked at the sky since its inception, noticing the movements of the sun and moon and their patterns. They have thus an impressive catalogue of knowledge regarding the heavens."
+
+ tradition_children_of_the_huaxia_name:0 "Children of the Huaxia"
+ tradition_children_of_the_huaxia_desc:1 "Our ancestors would come to define grandeur and prestige, once ruling over the entirety of Chinese civilization and, by themselves, defining what civilization would come to mean. The old glory may be gone, but our attitude certainly has not."
 
  jade_blade_of_blood_desc:1 "A blade of remarkable quality, used by the Cantonese from across the pond. It is expertly crafted, depicting the legendary Jade Chairman on the handle. The Cantonese recommend the intense washing of one's hands after using the blade for its primary function. \n\n#warning when equiped, the owner of this artifact may castrate prisoners.#! @warning_icon!"
 
@@ -22,6 +29,14 @@
  dai:0 "Dai"
  kam:0 "Kam"
  cantonese:0 "Cantonese"
+ han:0 "Han"
+ dai:0 "Dai"
+ bai:0 "Bai"
+ hakka:0 "Hakka"
+
+ culture_parameter_decision_learning_martial_art_form:1 "Gain a [decision|E] to train under tutelage of a #E Martial Artist#!."
+
+
 
  nick_eastern_dragon:1 "The Dragon from the East" 
 
@@ -52,3 +67,55 @@
  doctrine_parameter_hostility_override_pagan_hostility_doctrine:2 "Considers Folkloric [faiths|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  doctrine_parameter_hostility_override_special_doctrine_heirs_of_atlantis:2 "Considers [faiths|E] with the Heirs of Atlantis doctrine to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  doctrine_parameter_hostility_override_tenet_hear_me_roar:2 "Considers [faiths|E] with the Hear me Roar tenet to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_tenet_warmonger:2 "Considers [faiths|E] with the Warmonger tenet to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+
+ four_principled:0 "School of the Four Principled"
+ four_principled_adj:1 "Four Principled"
+ four_principled_adherent:0 "Principlist"
+ four_principled_adherent_plural:0 "Principlists"
+ four_principled_desc:0 "The Fall of Heaven was an event that shattered our civilisation, decimating progress if we have to believe the few texts that have survived throughout the decades. Those texts, however, have come to be understood less as an accurate description of our people before the event and more metaphorically: a paradise on earth, described by the legendary four principled philosophers, Xiǎopíng, Zemin, Liè and Zedong. They expand Taoist ideas of self-development and actualisation through methods of "opening up", "seeking truth from facts" and "self struggle", coming to the twelve core social values of Xí (habit), with the first among equals being prosperity. This follows from the original pre-event philosopher Xiǎopíng and his core philosophy: 致富 (seek wealth). Their teachings are thought to be the pillars upon which Heaven stood and which would lead the Chinese people to paradise and it is up to us to follow their Selected Works by the letter."
+
+ four_principled_high_god_name:0 "Heaven"
+ four_principled_high_god_name_possessive:0 "Heaven's" 
+ four_principled_creator_god_name:0 "The Eight Princelings"
+ four_principled_creator_god_name_possessive:0 "Princelings'"
+ four_principled_health_god_name:0 "The Mystical Barefooter"
+ four_principled_health_god_name_possessive:0 "Barefooter's" 
+ four_principled_fertility_god_name:0 "Yinchu of the One Child"
+ four_principled_fertility_god_name_possessive:0 "Yinchu's" 
+ four_principled_wealth_god_name:0 "Xiǎopíng of the South-West"
+ four_principled_wealth_god_name_possessive:0 "Xiǎopíng's"
+ four_principled_household_god_name:0 "Zemin of the Yangtze"
+ four_principled_household_god_name_possessive:0 "Zemin's"
+ four_principled_knowledge_god_name:0 "Liè of the Serene Marx"
+ four_principled_knowledge_god_name_possessive:0 "Liè's"
+ four_principled_war_god_name:0 "The Wise Zedong"
+ four_principled_war_god_name_possessive:0 "Wise Zedong's"
+ four_principled_pantheon_the_philosophers:0 "The Ancient Philosophers"
+ four_principled_devil_name:0 "Guizi"
+ four_principled_devil_name_possessive:0 "Guizi's"
+ four_principled_witch_god_name:0 "Yongkang of Jiangsu"
+ four_principled_house_of_worship:0 "County Bank"
+ four_principled_house_of_worship_plural:0 "County Banks"
+ four_principled_religious_symbol:0 "Yuan"
+ four_principled_devotee:0 "Follower"
+ four_principled_devotee_plural:0 "Followers"
+ four_principled_priest:0 "Student"
+ four_principled_priest_plural:0 "Students"
+ four_principled_afterlife_positive:0 "The River of Heaven"
+ four_principled_afterlife_negative:0 "The Long March"
+ four_principled_religious_text:0 "The Selected Works"
+
+ tenet_to_get_rich_is_glorious:0 "To Get Rich is Glorious"
+ tenet_to_get_rich_is_glorious_name:0 "To Get Rich is Glorious"
+ tenet_to_get_rich_is_glorious_desc:0 "The main factor in the virtue of a person is his possessions. The more a person possesses, the more potential he has to be good and help the community."
+ tenet_children_are_the_future:0 "The Youth of New China"
+ tenet_children_are_the_future_name:0 "The Youth of New China"
+ tenet_children_are_the_future_desc:0 "The texts of the four principled are not always clear about the role of having children, with some lesser philosophers denouncing it. We, however, follow the logic of Zedong, first architect of our school of thought: #"You young people, full of vigor and vitality, are in the bloom of life, like the sun at eight or nine in the morning#"."
+
+ treasure_fleet.0001.t:0 "Rumours of Grand Western Fleet"
+ treasure_fleet.0001.desc:0 "The West Coast has been uproar for weeks at this point, as rumours of a #"Grand Fleet#" of foreign men have spread from the North. Supposedly, Cascadian fishermen spread these tales on the docks of San Francisco. \n\nTheir claims compare this foreign fleet to those of Old America: wooden ships with enormous sails gliding on the horizon, but staying at a distance. It isn't clear where they are from or why they haven't docked yet, but they are unlike any vessel from the Americas. \n\nThe tales are disturbing the peace in our empire, but it does spark curiousity. Is the world bigger than we think it is? Are there civilized lands across the great Pacific?"
+ treasure_fleet.0001.a:0 "Is there something beyond the Western horizon?"
+ treasure_fleet.0001.b:0 "Unknown foreigners on big ships?"
+ treasure_fleet.0001.c:0 "Just some old sailor fantasies, not much else"
+ treasure_fleet.0001.d:0 "Why assume the worst? Maybe they make great friends!"

@@ -1,6 +1,91 @@
 ﻿##############################
 # RITUAL CULTURAL TRADITIONS #
 ##############################
+tradition_martial_artistry = {
+	category = combat
+
+	layers = {
+		0 = martial
+		1 = western
+		4 = hunter.dds
+	}
+	
+	can_pick = {
+
+	}
+	can_pick_for_hybridization = {
+	
+	}
+	
+	parameters = {
+	decision_learning_martial_art_form = yes
+	}
+	
+	character_modifier = {
+	no_prowess_loss_from_age = yes
+	prowess = 3
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 0 }
+}
+
+tradition_children_of_the_huaxia = {
+	category = realm
+
+	layers = {
+		0 = diplo
+		1 = western
+		4 = diplomat.dds
+	}
+	
+	can_pick = {
+
+	}
+	can_pick_for_hybridization = {
+	
+	}
+	
+	parameters = {
+
+	}
+	
+	character_modifier = {
+	monthly_prestige_gain_mult = 0.05
+	vassal_limit = 5
+	vassal_tax_mult = 0.1
+	short_reign_duration_mult = 0.25
+	opinion_of_liege = -20
+	opinion_of_different_culture = -20
+	opinion_of_same_culture = 10
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 0 }
+}
+
 tradition_astronomers = {
 	category = ritual
 
