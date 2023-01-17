@@ -856,17 +856,17 @@
  #Cajun Councillors
  marshal_cajun:0 "Capitaine Shérif"
 
- count_holy_order_male_cantonese:0 "Lieutenant"
- count_holy_order_female_cantonese:0 "Lieutenant"
- duke_holy_order_male_cantonese:0 "Rear Admiral"
- duke_holy_order_female_cantonese:0 "Rear Admiral"
- king_holy_order_male_cantonese:0 "Admiral"
- king_holy_order_female_cantonese:0 "Admiral"
- emperor_holy_order_male_cantonese:0 "High Admiral"
- emperor_holy_order_female_cantonese:0 "High Admiral"
+ count_holy_order_male_new_wave_confucianism:0 "Lieutenant"
+ count_holy_order_female_new_wave_confucianism:0 "Lieutenant"
+ duke_holy_order_male_new_wave_confucianism:0 "Rear Admiral"
+ duke_holy_order_female_new_wave_confucianism:0 "Rear Admiral"
+ king_holy_order_male_new_wave_confucianism:0 "Admiral"
+ king_holy_order_female_new_wave_confucianism:0 "Admiral"
+ emperor_holy_order_male_new_wave_confucianism:0 "High Admiral"
+ emperor_holy_order_female_new_wave_confucianism:0 "High Admiral"
 
- king_holy_order_male_inti:0 "Admiral"
- king_holy_order_female_inti:0 "Admiral"
+ duke_holy_order_male_holy_church_of_the_red_sun:0 "Chairman"
+ duke_holy_order_female_holy_church_of_the_red_sun:0 "Chairwoman"
  
  emperor_republic_male_cantonese:0 "Jade Chairman"
  emperor_republic_female_cantonese:0 "Jade Chairwoman" 

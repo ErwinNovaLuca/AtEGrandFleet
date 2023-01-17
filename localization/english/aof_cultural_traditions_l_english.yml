@@ -43,6 +43,9 @@
  k_treasure_fleet:0 "The Treasure Fleet"
  k_treasure_fleet_adj:0 "Treasure Fleet"
 
+ d_grand_master_red_sun:0 "Red Chairmanship in Shaanxi"
+ d_grand_master_red_sun_adj:1 "Red Chairmanship in Shaanxi"
+
  building_hollywoo_sign:1 "Hollywoo Sign"
  building_hollywoo_sign_02:1 "Hollywoo Sign"
  building_type_hollywoo_sign:1 "Hollywoo Sign" 
@@ -50,14 +53,29 @@
  building_hollywoo_sign_desc:1 "Above, on the hills of the Santa Monica mountains, the white letters of Hollywoo stand imposingly above the community of Los Angeles. Once the target of destruction by the christians of the region, who believed Hollywoo to be a pagan god from before the Event, the sign came under the protection of the graceful Guru and his followers. Since then, the sign remains a symbol of culture and acceptance. Whatever Hollywoo may have been, this old God won't be forgotten and his inspiration, touching the people of Los Angeles and the builders of this monument, won't go to waste."  
  building_hollywoo_sign_02_desc:1 "Above, on the hills of the Santa Monica mountains, the white letters of Hollywoo stand imposingly above the community of Los Angeles. Once the target of destruction by the christians of the region, who believed Hollywoo to be a pagan god from before the Event, the sign came under the protection of the graceful Guru and his followers. Since then, the sign remains a symbol of culture and acceptance. Whatever Hollywoo may have been, this old God won't be forgotten and his inspiration, touching the people of Los Angeles and the builders of this monument, won't go to waste."
 
+ # Religion
+
+ chinese_folk_religions:0 "Chinese Folk Religion"
+ chinese_folk_religions_adj:1 "Chinese Folk Religion"
+ chinese_folk_religions_adherent:0 "Follower"
+ chinese_folk_religions_adherent_plural:0 "Followers"
+ chinese_folk_religions_desc:0 "Describing a diverse plethora of local beliefs, religions and cults, Chinese folk religion does have some unifying principles. The common core consists of four concepts, including the existance of Heaven (天), the energy that moves the universe called Qi, the worship of the ancestors and moral reciprocity, called bao ying. Other common patterns are the concepts of ying and yang and traditional ideas about destiny and fate. These common themes are packed together with local tales, small gods and spirits and a library's worth of scriptures."
+
  new_wave_confucianism:0 "Holy Confucian Church"  
  new_wave_confucianism_adj:1 "Holy Confucian Church"  
  new_wave_confucianism_adherent:1 "New Confucianist"
  new_wave_confucianism_adherent_plural:1 "New Confucianists" 
  new_wave_confucianism_desc:0 "According to the Chinese, Confucianism has become a contentious topic in their land of origin, with animosity between those of the Confucian Church, who have adopted the liturgy of Confucianism into similar practices as Chinese Christians, Jews and Muslims, while maintaining an unique sense of spirituality instead of religiosity, and #"Old Confucianists#", who shame the practice of the churches and seek to maintain Confucian thinking in its purest form."
 
+ Refined_confucianism:0 "Refined Confucianism"
+ Refined_confucianism_adj:0 "Confucianism"
+ Refined_confucianism_adherent:0 "Confucianist"
+ Refined_confucianism_adherent_plural:0 "Confucianists"
+ Refined_confucianism_desc:0 "Placeholder :)"
+
  chinese_philosophies_religion:0 "Chinese Wisdom" 
  chinese_philosophies_religion_adj:0 "Chinese Wisdom"
+ chinese_philosophies_religion_desc:0 "The concepts and ideas surrounding morality, belief and wisdom have evolved separately in China, differing in many ways from the religions of the New World. While some pay close resemblance to New World ideas, most Chinese philosophies are in seperate category, influenced by the ancestors, old philosophers and new personalities of the Chinese plains, forests and cities."
 
  special_doctrine_made_in_china_name:1 "Made in China"
  special_doctrine_made_in_china_desc:0 "Hopping from across the pond, Chinese philosophy has no real axe to grind with any New World religion." 
@@ -71,8 +89,8 @@
 
  four_principled:0 "School of the Four Principled"
  four_principled_adj:1 "Four Principled"
- four_principled_adherent:0 "Principlist"
- four_principled_adherent_plural:0 "Principlists"
+ four_principled_adherent:0 "Cardinalist"
+ four_principled_adherent_plural:0 "Cardinalists"
  four_principled_desc:0 "The Fall of Heaven was an event that shattered our civilisation, decimating progress if we have to believe the few texts that have survived throughout the decades. Those texts, however, have come to be understood less as an accurate description of our people before the event and more metaphorically: a paradise on earth, described by the legendary four principled philosophers, Xiǎopíng, Zemin, Liè and Zedong. They expand Taoist ideas of self-development and actualisation through methods of "opening up", "seeking truth from facts" and "self struggle", coming to the twelve core social values of Xí (habit), with the first among equals being prosperity. This follows from the original pre-event philosopher Xiǎopíng and his core philosophy: 致富 (seek wealth). Their teachings are thought to be the pillars upon which Heaven stood and which would lead the Chinese people to paradise and it is up to us to follow their Selected Works by the letter."
 
  four_principled_high_god_name:0 "Heaven"
@@ -112,6 +130,29 @@
  tenet_children_are_the_future:0 "The Youth of New China"
  tenet_children_are_the_future_name:0 "The Youth of New China"
  tenet_children_are_the_future_desc:0 "The texts of the four principled are not always clear about the role of having children, with some lesser philosophers denouncing it. We, however, follow the logic of Zedong, first architect of our school of thought: #"You young people, full of vigor and vitality, are in the bloom of life, like the sun at eight or nine in the morning#"."
+ tenet_Hsin_Hsin:0 "Hsin Hsin"
+ tenet_Hsin_Hsin_name:0 "Hsin Hsin"
+ tenet_Hsin_Hsin_desc:1 "Placeholder :)"
+
+ holy_church_of_the_red_sun:0 "Holy Church of the Red Sun"
+ holy_church_of_the_red_sun_adj:0 "Church of the Red Sun"
+ holy_church_of_the_red_sun_adherent:0 "Maoist"
+ holy_church_of_the_red_sun_adherent_plural:0 "Maoists"
+ holy_church_of_the_red_sun_desc:0 "The concept of salvation societies have their roots in pre-event China, but have permiated and seeped throughout society through the current Chinese kingdoms and republics. One of the largest would be born in Shaanxi, worshiping the scriptures of the ancient immortal Zedong who, after divine intervention saving him during war, inspired millions with his teachings. With the predicted apocalypse brought on by greed cleansing China, Zedong's philosophy has been justified. Salvation can only be found if our hearts can embrace the red sun and its kindness, or we will fail like old China."
+
+ special_doctrine_anti_capitalism_name:0 "Anti-Capitalist"
+ special_doctrine_anti_capitalism_desc:0 "We fight against greed and the worship of the sin of accumulating capital."
+
+ holy_site_waverly_place_name:0 "Waverly Place"
+ holy_site_los_angeles_chinatown_name:0 "Thien Hau Temple"
+ holy_site_chaung_yen_name:0 "Chuang Yen Monastery"
+ holy_site_little_fuzhou_name:0 "Brooklyn"
+ holy_site_cham_shan_temple_name:0 "Niagara"
+ holy_site_mexicali_chi_name:0 "La Chinesca"
+ holy_site_ayacucho_chi_name:0 "San Cristóbal of Huamanga University"
+ holy_site_oakland_chi_name:0 "Oakland"
+
+ # Events
 
  treasure_fleet.0001.t:0 "Rumours of Grand Western Fleet"
  treasure_fleet.0001.desc:0 "The West Coast has been uproar for weeks at this point, as rumours of a #"Grand Fleet#" of foreign men have spread from the North. Supposedly, Cascadian fishermen spread these tales on the docks of San Francisco. \n\nTheir claims compare this foreign fleet to those of Old America: wooden ships with enormous sails gliding on the horizon, but staying at a distance. It isn't clear where they are from or why they haven't docked yet, but they are unlike any vessel from the Americas. \n\nThe tales are disturbing the peace in our empire, but it does spark curiousity. Is the world bigger than we think it is? Are there civilized lands across the great Pacific?"

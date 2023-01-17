@@ -17,9 +17,10 @@
 				multiply = faith_unchanged_doctrine_cost_mult
 			}
 			
-}
-	is_shown = {
-			religion_tag = chinese_wisdom_religion
+		}
+
+		is_shown = {
+			religion_tag = chinese_philosophies_religion 
 		}
 
 		can_pick = {
@@ -33,6 +34,12 @@
 			sins = {
 				arbitrary 
 			}
+		}
+
+		character_modifier = {
+		ignore_negative_culture_opinion = yes
+		ignore_different_faith_opinion = yes
+		ai_zeal = -20
 		}
 
 	}

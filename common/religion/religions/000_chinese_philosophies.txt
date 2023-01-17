@@ -34,8 +34,8 @@
 
 
 	traits = {
-		virtues = { calm honest loyal }
-		sins = { wrathful decietful disloyal }
+		virtues = { calm honest just humble }
+		sins = { wrathful deceitful arbitrary sadistic }
 	}
 
 	custom_faith_icons = {
@@ -43,15 +43,52 @@
     }	
 
 	faiths = {
+		holy_church_of_the_red_sun = {
+		color = { 78 4 0 }
+		icon = red_sun
+
+		religious_head = d_grand_master_red_sun 
+		
+		holy_site = ayacucho_chi 
+		holy_site = havana
+		holy_site = little_fuzhou 
+		holy_site = los_angeles
+		holy_site = chicago
+		holy_site = oakland_chi 
+
+		doctrine = anachronous_hostility_doctrine
+
+		doctrine = special_doctrine_anti_capitalism 
+		
+		doctrine = tenet_ancestor_worship
+		doctrine = tenet_sun_worship 
+		doctrine = tenet_liberty_or_death 
+		
+		doctrine = doctrine_spiritual_head 
+		doctrine = doctrine_theocracy_lay_clergy
+		doctrine = doctrine_pluralism_righteous 
+		doctrine = doctrine_clerical_marriage_allowed 
+		doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+		doctrine = doctrine_clerical_function_recruitment 
+		doctrine = doctrine_theocracy_temporal 
+
+		doctrine = doctrine_adoption_type_commonplace 
+		doctrine = doctrine_divorce_allowed 
+
+		}
+
 		new_wave_confucianism = {
 			color = { 255 250 160 }
 			icon = Confucianism
 			doctrine = special_doctrine_made_in_china 
 			
+			traits = { virtues = { patient } }
+
 			holy_site = boston
 			holy_site = san_francisco
 			holy_site = seattle
 			holy_site = vancouver
+			holy_site = mexicali_chi 
 
 			doctrine = tenet_ancestor_worship 
 			doctrine = tenet_legalism 
@@ -64,18 +101,56 @@
 			doctrine = doctrine_clerical_succession_temporal_fixed_appointment
 
 		}
-		Refined confucianism = {
+
+		Refined_confucianism = {
 		color = { 224 230 160 }
-		icon = Confucianism
-		
+		icon = refined_confucianism
+		doctrine = special_doctrine_made_in_china 
+
+
+	traits = {
+		virtues = { loyal forgiving }
+		sins = { disloyal }
+	}
+
 		holy_site = sacramento 
 		holy_site = san_francisco
-		holy_site = vancouver
 		holy_site = seattle 
+		holy_site = little_fuzhou 
+		holy_site = mexicali_chi 
 		
 		doctrine = tenet_ancestor_worship
-		doctrine = tenet_hsin_hsin
-		doctrine = tenet_religious_law
+		doctrine = tenet_Hsin_Hsin 
+		doctrine = tenet_religious_legal_pronouncements 
+		
+		doctrine = doctrine_no_head
+		doctrine = doctrine_theocracy_lay_clergy
+		doctrine = doctrine_pluralism_pluralistic
+
+		doctrine = doctrine_clerical_succession_temporal_fixed_appointment
+		}
+
+		chinese_folk_religions = {
+		color = { 160 160 128 }
+		icon = chinese_folk_religions
+		doctrine = special_doctrine_made_in_china 
+
+
+		traits = {
+		virtues = { brave }
+		}
+
+
+		holy_site = waverly_place 
+		holy_site = los_angeles_chinatown 
+		holy_site = chaung_yen 
+		holy_site = little_fuzhou 
+		holy_site = cham_shan_temple 
+		holy_site = mexicali_chi 
+		
+		doctrine = tenet_ancestor_worship
+		doctrine = tenet_communal_identity 
+		doctrine = tenet_eastern_syncretism 
 		
 		doctrine = doctrine_no_head
 		doctrine = doctrine_theocracy_lay_clergy

@@ -82,6 +82,26 @@ china_xi_huan_china1 = { # The Right Hand Man
 
 }
 
+religious_red_sun_1 = { 
+    name = "Kai"
+    female = no
+    disallow_random_traits = no
+    
+    culture = han
+    religion = holy_church_of_the_red_sun 
+	
+    
+	2600.2.23 = {
+        birth = yes   
+ 
+	}
+
+	2666.1.1 = {
+	get_title = d_grand_master_red_sun 
+	}
+
+}
+
 china_zang_sāinà_china1 = { # The Rock
     name = "Zang"
     female = no

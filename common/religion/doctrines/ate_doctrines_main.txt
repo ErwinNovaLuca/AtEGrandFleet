@@ -35,6 +35,28 @@
 		}
 	}
 
+	# Red Sun Church
+	special_doctrine_anti_capitalism = {
+		is_shown = {
+			has_doctrine = special_doctrine_anti_capitalism 
+		}
+
+		can_pick = { always = no }
+		
+		parameters = {
+			hostility_override_special_doctrine_is_capitalist_faith = 3
+			hostility_override_tenet_capitalist_syncretism = 3
+		}
+
+		traits = {
+			sins = {
+			greedy
+			}
+			virtues = {
+			generous
+			}
+		}
+	}
 
 	# Inca Faith
 	special_doctrine_crown_of_the_andes = {
