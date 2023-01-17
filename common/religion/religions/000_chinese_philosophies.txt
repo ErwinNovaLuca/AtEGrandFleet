@@ -34,8 +34,8 @@
 
 
 	traits = {
-		virtues = { temperate compassionate generous }
-		sins = { gluttonous callous greedy }
+		virtues = { calm honest loyal }
+		sins = { wrathful decietful disloyal }
 	}
 
 	custom_faith_icons = {
@@ -63,5 +63,24 @@
 
 			doctrine = doctrine_clerical_succession_temporal_fixed_appointment
 
+		}
+		Refined confucianism = {
+		color = { 224 230 160 }
+		icon = Confucianism
+		
+		holy_site = sacramento 
+		holy_site = san_francisco
+		holy_site = vancouver
+		holy_site = seattle 
+		
+		doctrine = tenet_ancestor_worship
+		doctrine = tenet_hsin_hsin
+		doctrine = tenet_religious_law
+		
+		doctrine = doctrine_no_head
+		doctrine = doctrine_theocracy_lay_clergy
+		doctrine = doctrine_pluralism_pluralistic
+
+		doctrine = doctrine_clerical_succession_temporal_fixed_appointment
 		}
 }

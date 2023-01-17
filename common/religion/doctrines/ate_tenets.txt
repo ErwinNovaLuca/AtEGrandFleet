@@ -3,6 +3,42 @@
 	number_of_picks = 3
 
 	################################
+	# Confucian Specific Tenets #
+	################################
+	
+	tenet_Hsin_Hsin = {
+	icon = core_tenet_adaptive
+	piety_cost = {
+		value = faith_tenet_cost_low
+		
+		# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = Hsin_Hsin }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			
+}
+	is_shown = {
+			religion_tag = chinese_wisdom_religion
+		}
+
+		can_pick = {
+			always = yes
+		}
+
+		traits = {
+			virtues = {
+				just
+			}
+			sins = {
+				arbitrary 
+			}
+		}
+
+	}
+
+
+	################################
 	# Four Principled Specific Tenets #
 	################################
 
