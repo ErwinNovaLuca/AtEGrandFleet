@@ -35,6 +35,30 @@
 		}
 	}
 
+	special_doctrine_old_text = {
+		is_shown = {
+			has_doctrine = special_doctrine_old_text 
+		}
+
+		can_pick = { always = no }
+		
+		parameters = {
+			hostility_special_doctrine_new_text = 2
+		}
+	}
+
+	special_doctrine_new_text = {
+		is_shown = {
+			has_doctrine = special_doctrine_new_text 
+		}
+
+		can_pick = { always = no }
+		
+		parameters = {
+			hostility_special_doctrine_old_text = 2
+		}
+	}
+
 	# Red Sun Church
 	special_doctrine_anti_capitalism = {
 		is_shown = {

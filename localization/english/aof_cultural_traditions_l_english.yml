@@ -80,6 +80,12 @@
  special_doctrine_made_in_china_name:1 "Made in China"
  special_doctrine_made_in_china_desc:0 "Hopping from across the pond, Chinese philosophy has no real axe to grind with any New World religion." 
 
+ special_doctrine_old_text_name:0 "Old Text Adherents"
+ special_doctrine_old_text_desc:0 "Being the basis of our interpretation of Confucianism, the Old Texts, written before the reforms of the clerical script, and the Han school are fundamental to our understanding of the world."
+ 
+ special_doctrine_new_text_name:0 "New Text Adherents"
+ special_doctrine_old_text_desc:0 "Building upon the texts written after the burning of scriptures during the Song dynasty, the New Texts emphasize the prophetic nature of Confucius and the metaphysical aspects of the texts." 
+
  doctrine_parameter_hostility_override_anachronous_hostility_doctrine:2 "Considers Anachronous [faiths|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  doctrine_parameter_hostility_override_amerindian_hostility_doctrine:2 "Considers Amerindian [faiths|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  doctrine_parameter_hostility_override_pagan_hostility_doctrine:2 "Considers Folkloric [faiths|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
