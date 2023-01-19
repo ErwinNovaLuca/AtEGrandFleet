@@ -6,6 +6,13 @@ d_grand_master_red_sun = {
 	}
 }
 
+d_ate_dalai_lama = {
+	2666.1.1 = {
+		holder = religious_lamaism_1
+		government = theocracy_government
+	}
+}
+
 k_treasure_fleet = {
 	2556.3.20 = {
 		government = holy_order_government

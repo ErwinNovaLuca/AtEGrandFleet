@@ -20,3 +20,18 @@ d_grand_master_red_sun = {
 	destroy_if_invalid_heir = yes
 	de_jure_drift_disabled = yes
 }
+
+d_ate_dalai_lama = {
+ 	color { 0 100 0 }
+ 	definite_form = yes
+ 	landless = yes
+
+ 	ai_primary_priority = {
+		add = @always_primary_score
+ 	}
+
+ 	no_automatic_claims = yes
+ 	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+}

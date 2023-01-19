@@ -102,6 +102,26 @@ religious_red_sun_1 = {
 
 }
 
+religious_lamaism_1 = { 
+    name = "Gendun Drupa"
+    female = no
+    disallow_random_traits = no
+    
+    culture = tibetan
+    religion = lamaism
+	
+    
+	2598.6.12 = {
+        birth = yes   
+ 
+	}
+
+	2666.1.1 = {
+	get_title = d_ate_dalai_lama 
+	}
+
+}
+
 china_zang_sāinà_china1 = { # The Rock
     name = "Zang"
     female = no

@@ -43,9 +43,40 @@
     }	
 
 	faiths = {
+		taoism = {
+		color = { 43 126 165 }
+		icon = taoism
+
+		traits = { 
+		virtues = { compassionate temperate }
+		sins = { sadistic stubborn drunkard }
+		}
+		
+		holy_site = waverly_place 
+		holy_site = mendocino 
+		holy_site = hanford 
+		holy_site = los_angeles
+
+		doctrine = special_doctrine_made_in_china 
+		doctrine = special_doctrine_three_beliefs 	
+
+		doctrine = tenet_esotericism 
+		doctrine = tenet_inner_journey 
+		doctrine = tenet_the_beauty_around_us 
+		
+		doctrine = doctrine_no_head
+		doctrine = doctrine_theocracy_lay_clergy
+		doctrine = doctrine_pluralism_pluralistic
+
+		doctrine = doctrine_clerical_succession_temporal_fixed_appointment
+
+		}
+
 		holy_church_of_the_red_sun = {
 		color = { 78 4 0 }
 		icon = red_sun
+
+		sins = { greedy }
 
 		religious_head = d_grand_master_red_sun 
 		
@@ -81,7 +112,8 @@
 			color = { 255 250 160 }
 			icon = Confucianism
 			doctrine = special_doctrine_made_in_china 
-			
+			doctrine = special_doctrine_three_beliefs_conf 	
+
 			traits = { virtues = { patient } }
 
 			holy_site = boston
@@ -106,12 +138,12 @@
 		color = { 224 230 160 }
 		icon = refined_confucianism
 		doctrine = special_doctrine_made_in_china 
+		doctrine = special_doctrine_three_beliefs_conf 	
 
-
-	traits = {
+		traits = {
 		virtues = { loyal forgiving }
 		sins = { disloyal }
-	}
+		}
 
 		holy_site = sacramento 
 		holy_site = san_francisco

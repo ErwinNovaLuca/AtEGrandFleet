@@ -2487,11 +2487,17 @@ eliot = {
 }
 
 #buddhism
-
+hanford = {
+	county = c_tulare
+	character_modifier = {
+		cultural_head_fascination_mult = 0.1
+		development_growth_factor = 0.05
+	}
+}
 san_jose = {
 	county = c_san_jose
 	character_modifier = {
-		name = holy_site_san_jose_effect_name
+	
 		cultural_head_fascination_mult = 0.1
 		development_growth_factor = 0.05
 	}
@@ -2499,11 +2505,45 @@ san_jose = {
 mendocino = {
 	county = c_mendocino
 	character_modifier = {
-		name = holy_site_ukiah_effect_name
+		health = 0.1
 		learning = 2
 	}
 }
-
+mississauga_budd = {
+	county = c_peel
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+		random_skills_per_child = 1
+	}
+}
+coconino_budd = {
+	county = c_coconino
+	character_modifier = {
+		prowess = 2
+		stress_loss_mult = 0.2
+	}
+}
+cabot_budd = {
+	county = c_cabot
+	character_modifier = {
+		faith_creation_piety_cost_mult = -0.3
+		advantage_against_coreligionists = 2
+	}
+}
+poudre_budd = {
+	county = c_poudre
+	character_modifier = {
+		life_expectancy = 2
+		long_reign_bonus_mult = 0.4
+	}
+}
+zu_lai_budd = {
+	county = c_sao_paulo
+	character_modifier = {
+		build_speed = 0.15
+		build_piety_cost = -0.2
+	}
+}
 #Sagestepper
 
 john_day = {
@@ -2855,6 +2895,29 @@ drakes_well_petromancer = {
 	}
 }
 
+###Han Buddhism
+thousand_buddhas = {
+	county = c_mendocino
+	character_modifier = {
+			health = 0.1
+			learning = 2
+	}
+}
+
+hsi_lai_temple = {
+	county = c_los_angeles
+	character_modifier = {
+		cultural_head_fascination_mult = 0.2
+		church_holding_build_gold_cost = -0.2
+	}
+}
+
+richmond_budd = {
+	county = c_vancouver
+	character_modifier = {
+		monthly_lifestyle_xp_gain_mult = 0.15
+	}
+}
 ###amazonian
 mount_roraima = {
 	county = c_amajari

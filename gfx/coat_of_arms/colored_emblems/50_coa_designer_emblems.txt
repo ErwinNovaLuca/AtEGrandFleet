@@ -18,6 +18,7 @@
 # Double underscore intentional to make it the first option in the list
 ce__empty_designer.dds = { colors = 0 category = abstract }
 
+ce_snow_lion.dds = { colors = 3 category = abstract }
 ce_liu.dds = { colors = 1 category = abstract }
 ce_african_asetena.dds = { colors = 1 category = abstract }
 ce_african_builder_god.dds = { colors = 1 category = abstract }

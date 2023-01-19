@@ -46,6 +46,9 @@
  d_grand_master_red_sun:0 "Red Chairmanship in Shaanxi"
  d_grand_master_red_sun_adj:1 "Red Chairmanship in Shaanxi"
 
+ d_ate_dalai_lama:0 "Dalai Lama"
+ d_ate_dalai_lama_adj:0 "Dalai Lama" 
+
  building_hollywoo_sign:1 "Hollywoo Sign"
  building_hollywoo_sign_02:1 "Hollywoo Sign"
  building_type_hollywoo_sign:1 "Hollywoo Sign" 
@@ -55,8 +58,20 @@
 
  # Religion
 
+ han_buddhism:0 "Han Buddhism"
+ han_buddhism_adj:0 "Han Buddhist"
+ han_buddhism_adherent:0 "Buddhist"
+ han_buddhism_adherent_plural:0 "Buddhists"
+ han_buddhism_desc:0 "Following from a long history of Buddhist practices that came to China during the Han dynasty, Han Buddhism has become an uniquely Chinese school of Buddhist practice, influenced by local folk religions, Confucianism, Taoism and other worldly philosophies. While it contains a variety of schools with different doctrines, Han Buddhism is far less sectarian, with different schools lending different doctrines from eachother. This acceptance of other beliefs can also be found in its syncretic relationship with China's other religions, with many Han Buddhists practicing Buddhism and a second system of belief, most often local folk religions."  
+
+ lamaism:0 "Lamaist Buddhism"
+ lamaism_adj:0 "Lamaist"
+ lamaism_adherent:0 "Buddhist"
+ lamaism_adherent_plural:0 "Buddhists"
+ lamaism_desc:0 "Lamaism, known in its land of origin as Tibetan buddhism, came to the mountainous regions of China after the Event, though Tibetan buddhism claims an ancient connection to these lands through pre-event scriptures. It distincts itself from Han Buddhism through the belief of reincarnating spiritual leaders, with the most important seemingly being the Dalai Lama of the Gelug school of Lamaism. Despite some differences between its many schools of thinking, connection between the different communities is maintained through a complex monastical system."
+
  chinese_folk_religions:0 "Chinese Folk Religion"
- chinese_folk_religions_adj:1 "Chinese Folk Religion"
+ chinese_folk_religions_adj:1 "Chinese Folkist"
  chinese_folk_religions_adherent:0 "Follower"
  chinese_folk_religions_adherent_plural:0 "Followers"
  chinese_folk_religions_desc:0 "Describing a diverse plethora of local beliefs, religions and cults, Chinese folk religion does have some unifying principles. The common core consists of four concepts, including the existance of Heaven (天), the energy that moves the universe called Qi, the worship of the ancestors and moral reciprocity, called bao ying. Other common patterns are the concepts of ying and yang and traditional ideas about destiny and fate. These common themes are packed together with local tales, small gods and spirits and a library's worth of scriptures."
@@ -68,7 +83,7 @@
  new_wave_confucianism_desc:0 "As the Chinese People's Republic collaapsed during The Event, old ideas and traditions began to reasert themselves once again even as modern ideas stubbornly  refused to die. Amidst the chaos, the people looked for one who might be in posession of the mandate of heaven. In the nearly three centuries before the establishment of the Federal Republic dozens of warlords made a play at re-establishing dynastic rule in China, and it was under the protection one such now forgotten warlord that the Church of All Under Heaven was established. An attempt to create an organized ecclesiastical structure to prop up his own rule, the organization has long outlived him and taken upon a life of its own. Despite being commonly known as Old Confucians, the Church of All Under Heaven bases it's teachings upon those of the New Text Confucians, interpreting confucian ideas through a more overtly mystical and esoteric lens. Though originally surpressed by the Federal Government, in the centuries since China's unification it has (mostly) made peace with the overarching republican structure of the country. Nevertheless, it remains more popular in the interior of the Federation where fedualism holds a greater sway and north of the Yellow River, where Federal control is either loose or completely absent."
 
  Refined_confucianism:0 "New Confucianism"
- Refined_confucianism_adj:0 "Confucianism"
+ Refined_confucianism_adj:0 "Confucianist"
  Refined_confucianism_adherent:0 "New Confucianian"
  Refined_confucianism_adherent_plural:0 "New Confucianists"
  Refined_confucianism_desc:0 "As civilization collapsed during The Event, though Taiwan suffered and regressed technologically along with the rest of the world, the island was spared the worst of the violence typical of era before the establishment of the Federal Republic of China. As a major hub of New Confucian thought before The Event, the island's comparative peace allowed a large portion of New Confucian works to survive the centuries. Originating early in the last  century before the Event, New Confucian thinkers sought to adapt the ancient Confucian intellectual tradition to modern republican political structures. With its emphasis that a truely virtuous great sage must value what is best among all peoples and religions and be willing to abdicate rule to those superior to himself, New Confucian thought has undergone a renisance in the Federal Republic of China and currently serves as the the closest thing to the offical ideology of the state."
@@ -93,8 +108,14 @@
  doctrine_parameter_hostility_override_tenet_hear_me_roar:2 "Considers [faiths|E] with the Hear me Roar tenet to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  doctrine_parameter_hostility_override_tenet_warmonger:2 "Considers [faiths|E] with the Warmonger tenet to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
 
+ taoism:0 "Taoism"
+ taoism_adj:0 "Taoist"
+ taoism_adherent:0 "Taoist"
+ taoism_adherent_plural:0 "Taoists"
+ taoism_desc:0 "You can do this one Michael :)"
+ 
  four_principled:0 "School of the Four Principled"
- four_principled_adj:1 "Four Principled"
+ four_principled_adj:0 "Four Principlist"
  four_principled_adherent:0 "Cardinalist"
  four_principled_adherent_plural:0 "Cardinalists"
  four_principled_desc:0 "The Fall of Heaven was an event that shattered our civilisation, decimating progress if we have to believe the few texts that have survived throughout the decades. Those texts, however, have come to be understood less as an accurate description of our people before the event and more metaphorically: a paradise on earth, described by the legendary four principled philosophers, Xiǎopíng, Zemin, Liè and Zedong. They expand Taoist ideas of self-development and actualisation through methods of "opening up", "seeking truth from facts" and "self struggle", coming to the twelve core social values of Xí (habit), with the first among equals being prosperity. This follows from the original pre-event philosopher Xiǎopíng and his core philosophy: 致富 (seek wealth). Their teachings are thought to be the pillars upon which Heaven stood and which would lead the Chinese people to paradise and it is up to us to follow their Selected Works by the letter."
@@ -148,6 +169,11 @@
 
  special_doctrine_anti_capitalism_name:0 "Anti-Capitalist"
  special_doctrine_anti_capitalism_desc:0 "We fight against greed and the worship of the sin of accumulating capital."
+ special_doctrine_three_beliefs_name:0 "Three Teachings"
+ special_doctrine_three_beliefs_desc:0 "Three Teachings, Harmonious as One (三教合一). Buddhism, Taoism and Confucianism have always been the corner-stones of Chinese beliefs and philosophy."
+ special_doctrine_three_beliefs_confucian_name:0 "Three Teachings"
+ special_doctrine_three_beliefs_confucian_desc:0 "Three Teachings, Harmonious as One (三教合一). Buddhism, Taoism and Confucianism have always been the corner-stones of Chinese beliefs and philosophy."
+ 
 
  holy_site_waverly_place_name:0 "Waverly Place"
  holy_site_los_angeles_chinatown_name:0 "Thien Hau Temple"
@@ -157,6 +183,17 @@
  holy_site_mexicali_chi_name:0 "La Chinesca"
  holy_site_ayacucho_chi_name:0 "San Cristóbal of Huamanga University"
  holy_site_oakland_chi_name:0 "Oakland"
+ holy_site_thousand_buddhas_name:0 "City of Ten Thousand Buddhas" 
+ holy_site_hsi_lai_temple_name:0 "Hsi Lai Temple"
+ holy_site_richmond_budd_name:0 "Richmond" 
+ holy_site_mississauga_budd_name:0 "Mississauga" 
+ holy_site_coconino_budd_name:0 "Coconino" 
+ holy_site_cabot_budd_name:0 "Pleasant Bay"
+ holy_site_poudre_budd_name:0 "Red Feather Lakes" 
+ holy_site_zu_lai_budd_name:0 "Zu Lai Temple" 
+ holy_site_hanford_name:0 "Hanford"
+
+ 
 
  # Events
 

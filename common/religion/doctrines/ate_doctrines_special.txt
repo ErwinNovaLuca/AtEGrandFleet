@@ -1,0 +1,149 @@
+﻿three_beliefs = {
+	group = "special" # "not_creatable"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_three_beliefs 
+	}
+	
+	special_doctrine_three_beliefs = {
+		parameters = {
+			hostility_override_taoism = 0
+			hostility_override_new_wave_confucianism = 0
+			hostility_override_Refined_confucianism = 0
+			hostility_override_han_buddhism = 0
+		}
+	}
+}
+
+three_beliefs_confucian = {
+	group = "special" # "not_creatable"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_three_beliefs_conf 
+	}
+	
+	special_doctrine_three_beliefs_conf = {
+		parameters = {
+			hostility_override_taoism = 0
+			hostility_override_han_buddhism = 0
+		}
+	}
+}
+
+trailwalker_ways = {
+	group = "special" # "not_creatable"
+	
+	is_available_on_create = {
+		has_doctrine = doctrine_trailwalker_everwest
+	}
+	
+	doctrine_trailwalker_everwest = {
+		parameters = {
+			hostility_same_religion = 0
+			hostility_same_family = 1
+			hostility_others = 2
+		}
+	}
+}
+
+is_amerindian_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_amerindian_faith
+	}
+
+	special_doctrine_is_amerindian_faith = {
+		parameters = {
+			# Since doctrines cannot modify other faith's views of us, only our view of others, all Amerindian faiths are given this special doctrine which makes them friendlier to Faiths with the respective Syncretism tenet.
+			hostility_override_tenet_native_syncretism = 2
+			native_syncretic_recipient_opinion_active = yes
+			opinion_of_native_syncretic_actor_opinion_active = 30
+		}
+	}
+}
+
+is_capitalist_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_capitalist_faith
+	}
+
+	special_doctrine_is_capitalist_faith = {
+		parameters = {
+			# Since doctrines cannot modify other faith's views of us, only our view of others, all Capitalist faiths are given this special doctrine which makes them friendlier to Faiths with the respective Syncretism tenet.
+			hostility_override_tenet_capitalist_syncretism = 2
+			capitalist_syncretic_recipient_opinion_active = yes
+			opinion_of_capitalist_syncretic_actor_opinion_active = 30
+		}
+	}
+}
+
+is_americanist_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_americanist_faith
+	}
+
+	special_doctrine_is_americanist_faith = {
+		parameters = {
+			# Since doctrines cannot modify other faith's views of us, only our view of others, all Americanist faiths are given this special doctrine which makes them friendlier to Faiths with the respective Syncretism tenet.
+			hostility_override_tenet_americanist_syncretism = 2
+			americanist_syncretic_recipient_opinion_active = yes
+			opinion_of_americanist_syncretic_actor_opinion_active = 30
+		}
+	}
+}
+
+is_industrialist_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_industrialist_faith
+	}
+
+	special_doctrine_is_industrialist_faith = {
+		parameters = {
+			# Since doctrines cannot modify other faith's views of us, only our view of others, all Industrialist faiths are given this special doctrine which makes them friendlier to Faiths with the respective Syncretism tenet.
+			hostility_override_tenet_industrialist_syncretism = 2
+			industrialist_syncretic_recipient_opinion_active = yes
+			opinion_of_industrialist_syncretic_actor_opinion_active = 30
+		}
+	}
+}
+
+is_harmonic_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_harmonic_faith
+	}
+
+	special_doctrine_is_harmonic_faith = {
+		parameters = {
+			# Since doctrines cannot modify other faith's views of us, only our view of others, all Harmonic faiths are given this special doctrine which makes them friendlier to Faiths with the Harmonic Syncretism tenet.
+			hostility_override_tenet_harmonic_syncretism = 1
+			harmonic_syncretic_recipient_opinion_active = yes
+			opinion_of_harmonic_syncretic_actor_opinion_active = 30
+		}
+	}
+}
+
+is_christian_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_christian_faith
+	}
+
+	special_doctrine_is_christian_faith = {
+		parameters = {
+			# Since doctrines cannot modify other faith's views of us, only our view of others, all Christian faiths are given this special doctrine which makes them friendlier to Faiths with the Christian Syncretism tenet.
+			hostility_override_tenet_christian_syncretism = 2
+			christian_syncretic_recipient_opinion_active = yes
+			opinion_of_christian_syncretic_actor_opinion_active = 30
+		}
+	}
+}
