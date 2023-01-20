@@ -17,10 +17,6 @@ treasure_fleet.0001 = {
 
 	trigger = {
 	current_year > 2700
-	OR = { 
-	root = { has_title = e_california }
-	top_liege = { has_title = e_california }
-	}
 	}
 
 	immediate = {
@@ -52,5 +48,135 @@ treasure_fleet.0001 = {
 	trigger = { has_trait = trusting }
 	trait = trusting
 	add_prestige = 10
+	}
+}
+
+###Treasure Fleet lands on our shore
+treasure_fleet.0002 = {
+	type = character_event
+	title = treasure_fleet.0002.t
+	desc = treasure_fleet.0002.desc
+	theme = hunting
+	override_background = docks
+
+	left_portrait = { 
+	character = scope:treasure_fleet_char 
+	animation = personality_honorable
+	}
+
+	right_portrait = { 
+	character = root
+	animation = worry
+	}
+
+	trigger = {
+	current_year > 2700
+	}
+
+	immediate = {
+		debug_log = "Chinese appeared!"
+		debug_log_date = yes
+		title:k_treasure_fleet = {
+			save_scope_as = treasure_fleet_scope
+			holder = { save_scope_as = treasure_fleet_char }
+		}
+	}
+	
+	option = { 
+	name = { text = treasure_fleet.0002.a }
+
+	}
+
+	option = { 
+	name = { text = treasure_fleet.0002.b }
+
+	}
+}
+
+###Treasure Fleet reaches California
+treasure_fleet.0003 = {
+	type = character_event
+	title = treasure_fleet.0003.t
+	desc = treasure_fleet.0003.desc
+	theme = hunting
+	override_background = docks
+
+	right_portrait = { 
+	character = root
+	animation = worry
+	}
+
+	trigger = {
+	current_year > 2700
+	root = { has_title = title:c_san_francisco }
+	}
+
+	immediate = {
+		debug_log = "Chinese appeared!"
+		debug_log_date = yes
+	}
+	
+	option = { 
+	name = { text = treasure_fleet.0003.a }
+
+	}
+
+	option = { 
+	name = { text = treasure_fleet.0003.b }
+
+	}
+}
+
+treasure_fleet.2001 = {
+	type = character_event
+	title = treasure_fleet.2001.t
+	desc = treasure_fleet.2001.desc
+	theme = learning
+	override_background = temple_generic
+
+
+	left_portrait = { 
+	character = scope:dalai_lama_char 
+	animation = personality_honorable
+	}
+
+	right_portrait = { 
+	character = root
+	animation = shock
+	}
+
+	trigger = {
+	current_year > 2730
+	root = { has_faith = faith:shangrilaism is_imprisoned = no independent_ruler = yes realm_size >= 25}
+	}
+
+	immediate = {
+		debug_log = "The Lama is Real!"
+		debug_log_date = yes
+		title:d_ate_dalai_lama = {
+			save_scope_as = dalai_lama_scope
+			holder = { save_scope_as = dalai_lama_char }
+		}
+	}
+	
+	option = { #Simply an imposter, we won't yield our beliefs
+	name = { text = treasure_fleet.2001.a }
+	scope:dalai_lama_char = { add_opinion = { modifier = rejects_dalai_lama target = root } }
+	faith:lamaism = { every_faith_character = { add_opinion = { modifier = rejects_dalai_lama_light target = root } } }
+	add_piety = -300
+	}
+
+	option = { #Simply an imposter, we won't yield our beliefs
+	name = { text = treasure_fleet.2001.c }
+	skill = learning
+	trigger = { learning >= 10 }
+	faith:shangrilaism = { remove_doctrine = tenet_sacramental_herbs add_doctrine = tenet_monasticism add_doctrine = special_doctrine_chenrezig_lineage add_doctrine = doctrine_spiritual_head set_religious_head_title = title:d_ate_dalai_lama }
+	add_piety = -500	
+	}
+
+	option = { #Simply an imposter, we won't yield our beliefs
+	name = { text = treasure_fleet.2001.d }
+	set_character_faith_with_conversion = faith:lamaism }
+	add_piety = -100
 	}
 }

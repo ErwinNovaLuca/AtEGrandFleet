@@ -37,6 +37,7 @@ d_ate_dalai_lama = {
 }
 
 e_thibet = { #Kingdom of Thibet
-	color = { 182 147 0 }
+	color = { 170 126 229 }
+	definite_form = no
 	
 }

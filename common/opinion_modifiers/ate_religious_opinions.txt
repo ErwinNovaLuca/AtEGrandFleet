@@ -1,0 +1,125 @@
+﻿rejects_dalai_lama = {
+	opinion = -50
+}
+
+rejects_dalai_lama_light = {
+	opinion = -25
+}
+
+attempted_wrestling_match_opinion = {
+	opinion = -15
+	monthly_change = 0.2
+	decaying = yes
+}
+
+wrestling_match_victor_opinion = {
+	opinion = -15
+	monthly_change = 0.2
+	decaying = yes
+}
+
+wrestling_match_loser_opinion = {
+	opinion = -30
+	monthly_change = 0.1
+	decaying = yes
+}
+laid_hands_on_target_opinion = {
+	opinion = 15
+	years = 5
+	decaying = yes
+}
+
+assembly_bribe_refused = {
+	opinion = -30
+	years = 10
+	decaying = yes
+}
+
+sodomite_indifferent = {
+	opinion = -5
+}
+
+delivered_from_evil_resist_opinion = {
+	opinion = -15
+	years = 5
+	decaying = yes
+}
+delivered_from_evil_accept_opinion = {
+	opinion = 15
+	years = 5
+	decaying = yes
+}
+
+sayona_infatuated = {
+	opinion = 50
+	years = 15
+}
+
+sayona_disdain = {
+	opinion = -25
+	years = 10
+}
+
+improved_interfaith_relations = {
+	opinion = 30
+	years = 10
+	decaying = yes
+}
+zombified_family_member = {
+	opinion = -20
+	years = 20
+	decaying = yes
+}
+
+zombified_me = {
+	opinion = 50
+	years = 50
+	decaying = no
+}
+
+contrapunteo_humble_lose_opinion = {
+	opinion = 15
+	years = 10
+	decaying = yes
+}
+
+contrapunteo_sore_lose_opinion = {
+	opinion = -30
+	years = 10
+	decaying = yes
+}
+
+contrapunteo_good_win_opinion = {
+	opinion = 15
+	years = 10
+	decaying = yes
+}
+
+contrapunteo_bad_win_opinion = {
+	opinion = -30
+	years = 10
+	decaying = yes
+}
+
+calvert_minister_pleased = {
+	opinion = 10
+	years = 5
+	decaying = yes
+}
+
+calvert_minister_displeased = {
+	opinion = -10
+	years = 5
+	decaying = yes
+}
+
+calvert_tyranny = {
+	opinion = -25
+	years = 10 # 3
+	decaying = no
+}
+
+friend_of_fairies = {
+	opinion = 15
+	decaying = yes
+}

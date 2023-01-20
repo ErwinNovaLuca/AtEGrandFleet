@@ -232,6 +232,9 @@ heritage_vaquero = {
 heritage_isthmian = {
     type = heritage
 }
+
+###ATEF
+
 heritage_mongolian = {
     type = heritage
 }
@@ -245,5 +248,9 @@ heritage_western_chinese = {
 }
 
 heritage_northern_chinese = {
+    type = heritage
+}
+
+heritage_tibetan = {
     type = heritage
 }

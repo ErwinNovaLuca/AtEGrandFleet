@@ -1,0 +1,49 @@
+﻿namespace = atef_form
+
+###  Thibet formation
+atef_form.0001 = {
+	type = character_event
+	title = atef_form.0001.t
+	desc = atef_form.0001.desc
+	theme = realm
+	background = wilderness_mountains
+
+	left_portrait = {
+		character = scope:scoped_emperor
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		save_scope_as = scoped_emperor
+	}
+	
+	option = { 
+	name = { text = atef_form.0001.a }
+
+	}
+}
+
+###  Thibet formation - Lamaists
+atef_form.0002 = {
+	type = character_event
+	title = atef_form.0002.t
+	desc = atef_form.0002.desc
+	theme = realm
+	background = wilderness_mountains
+
+	left_portrait = {
+		character = scope:scoped_emperor
+		animation = personality_zealous
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		save_scope_as = scoped_emperor
+	}
+	
+	option = { 
+	name = { text = atef_form.0002.a }
+	title:e_thibet = { set_title_name = e_thibet_lamaism }
+	}
+}

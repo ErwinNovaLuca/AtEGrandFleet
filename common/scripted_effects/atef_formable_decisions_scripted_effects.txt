@@ -1,10 +1,31 @@
 ﻿
 form_thibet_decision_effects = {
+	every_held_title = { 
+		limit = {
+			tier = tier_empire
+		}
+		every_in_de_jure_hierarchy = {
+				limit = {
+					tier = tier_kingdom
+				}
+				set_de_jure_liege_title = title:e_thibet
+				
+			}
+		}
+
+		every_held_title = { 
+			limit = {
+				tier = tier_kingdom
+			}
+		set_de_jure_liege_title = title:e_thibet
+		}
+
 	create_title_and_vassal_change = {
 		type = created
 		save_scope_as = title_change
 		add_claim_on_loss = no
 	}
+
 	title:e_thibet = {
 		change_title_holder = {
 			holder = scope:thibet_former
@@ -12,6 +33,9 @@ form_thibet_decision_effects = {
 		}
 
 	}
+
 	resolve_title_and_vassal_change = scope:title_change
+ 
+	set_primary_title_to = title:e_thibet
 		
 }

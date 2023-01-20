@@ -1,5 +1,13 @@
 ﻿l_english:
 
+ emperor_feudal_shangrilaism:0 "Dalai Lama"
+ empress_feudal_shangrilaism:0 "Dalai Lama"
+ emperor_feudal_lamaism:0 "Tsenpo"
+ empress_feudal_lamaism:0 "Tsenpo"
+
+ empire_lamaism:0 "Empire"
+ emperor_male_lamaism:0 "Tsenpo"
+ emperor_female_lamaism:0 "Tsenpo"
  count_cacique:0 "Cacique"
  count_cacique_female:0 "Cacica"
  county_tribe:0 "Tribe"
@@ -871,8 +879,43 @@
  emperor_republic_male_cantonese:0 "Jade Chairman"
  emperor_republic_female_cantonese:0 "Jade Chairwoman" 
 
+
+ empire_feudal_mongolian:0 "Khaganate"
+ emperor_feudal_mongolian:0 "Great Khagan"
+ empress_feudal_mongolian:0 "Great Khatun"
+ empire_clan_mongolian:0 "Khaganate"
+ emperor_clan_mongolian:0 "Great Khagan"
+ empress_clan_mongolian:0 "Great Khatun" 
+ empire_tribal_mongolian:0 "Khaganate"
+ emperor_tribal_mongolian:0 "Great Khagan"
+ empress_tribal_mongolian:0 "Great Khatun" 
+ prince_empire_mongolian:0 "Khan Khuu"
+ princess_empire_mongolian:0 "Gonji"
+
+ kingdom_feudal_mongolian:0 "Khanate"
+ king_feudal_mongolian:0 "Khan"
+ queen_feudal_mongolian:0 "Khatun"
+ kingdom_clan_mongolian:0 "Khanate"
+ king_clan_mongolian:0 "Khan"
+ queen_clan_mongolian:0 "Khatun"
+ kingdom_tribal_mongolian:0 "Khanate"
+ king_tribal_mongolian:0 "Khan"
+ queen_tribal_mongolian:0 "Khatun"
+ prince_kingdom_mongolian:0 "Khan Khuu"
+ princess_kingdom_mongolian:0 "Gonji"
+
+ duke_feudal_mongolian:0 "Beg"
+ duchess_feudal_mongolian:0 "Begum"
+ duke_clan_mongolian:0 "Beg"
+ duchess_clan_mongolian:0 "Begum"
+ duke_tribal_mongolian:0 "Beg"
+ duchess_tribal_mongolian:0 "Begum"
+
+
  e_thibet:0 "Thibet"
  e_thibet_adj:0 "Thibetan" 
+ e_thibet_lamaism:0 "Tibet"
+ e_thibet_adj_lamaism:0 "Tibet"
 
  form_thibet_decision:0 "Proclaim Thibet" 
  form_thibet_decision_desc:0 "With the supremacy of Tibetan buddhism firmly established over the Americas, the time has come to reestablish that mythical lost empire of Thibet. May the Buddha smile on our achievement."

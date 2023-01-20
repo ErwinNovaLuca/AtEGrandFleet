@@ -21,7 +21,8 @@
  language_hakka_name:0 "Hakka"
  language_mandarin_name:0 "Mandarin"
  language_min_name:0 "Min"
- language_cantonese_name:0 "Cantonese" 
+ language_cantonese_name:0 "Cantonese"  
+ language_tibetan_name:0 "Tibetan"
  
  mercenary_company_horde:0 "The Horde"
 
@@ -33,6 +34,7 @@
  dai:0 "Dai"
  bai:0 "Bai"
  hakka:0 "Hakka"
+ tibetan:0 "Tibetan"
 
  culture_parameter_decision_learning_martial_art_form:1 "Gain a [decision|E] to train under tutelage of a #E Martial Artist#!."
 
@@ -107,6 +109,9 @@
  doctrine_parameter_hostility_override_special_doctrine_heirs_of_atlantis:2 "Considers [faiths|E] with the Heirs of Atlantis doctrine to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  doctrine_parameter_hostility_override_tenet_hear_me_roar:2 "Considers [faiths|E] with the Hear me Roar tenet to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  doctrine_parameter_hostility_override_tenet_warmonger:2 "Considers [faiths|E] with the Warmonger tenet to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+
+ special_doctrine_chenrezig_lineage_name:0 "Patronage of the Dalai Lama"
+ special_doctrine_chenrezig_lineage_desc:0 "Coming from the Indian Himalayas to Tibet, the Dalai Lama is claimed to be a pre-event patron of the Tibetan people and Buddhists, having returned to Tibet after his exile to India and the Century without a Dalai Lama."
 
  taoism:0 "Taoism"
  taoism_adj:0 "Taoist"
@@ -203,3 +208,33 @@
  treasure_fleet.0001.b:0 "Unknown foreigners on big ships?"
  treasure_fleet.0001.c:0 "Just some old sailor fantasies, not much else"
  treasure_fleet.0001.d:0 "Why assume the worst? Maybe they make great friends!"
+ treasure_fleet.0002.t:0 "First Contact"
+ treasure_fleet.0002.desc:0 "They came from across the horizon, their big ships drifting to our shores. Our people now look with suspicion as these foreign sailors, supposedly from a distant land called #"Canton#", offer us strange products, such as fine teacups and a strange cloth. \n\nTheir imposing admiral, [treasure_fleet_char.GetFullName], has come to our court, searching for new opportunities for Canton. He has proposed a contract that allows future Cantonese merchants to use our docks for business."
+ treasure_fleet.0002.a:0 "We can agree to such cooperation"
+ treasure_fleet.0002.b:0 "We're not interested in foreign products, thank you..."
+ treasure_fleet.0003.t:0 "Ships across the Golden Gate"
+ treasure_fleet.0003.desc:0 "Worryingly, the rumours of foreign ships seem to not have been rumours at all. Ships with designs that are completely alien to the Pacific Coast have been spotted from the Golden Gate. They are quickly approaching the bay and thus California's heartland and a question will soon need an answer: are these ships merchants or are they warships? \n\nFor now, that answer cannot be questioned from such a distance. The city leaders have, however, demanded a decision from the lieutenant. We cannot wait too long, as preparation will be needed in the case of conflict."
+ treasure_fleet.0003.a:0 "We're peacemakers, not war-starters!"
+ treasure_fleet.0003.b:0 "They will yield at the Golden Gate!"
+
+ treasure_fleet.2001.t:0 "The Dalai Lama Question"
+ treasure_fleet.2001.desc:0 "The contact between the New and Old World has not just brought new goods, customs and people to the Americas, but also new information of the outside world. New World Buddhism has been shaken by Chinese merchants and Tibetan Buddhists who confirm the existance of a Dalai Lama, who the Lamaists consider their unifying head of faith. \n\nThe concept of a Dalai Lama has shaken Shangrilaists everywhere, as the confirmation of the existance of mythical Thibet and the Dalai Lama as its head creates awkward questions. If the people of Tibet follow the word of the Dalai Lama, should Shangrilists do the same? Is it okay to maintain our system of doctrines that is based on our own, special needs or would we be heretical? Some even question the very existance of this Dalai Lama: couldn't this just be a trick by foreigners?"
+ treasure_fleet.2001.a:0 "We reject the notion of the Dalai Lama actually existing"
+ treasure_fleet.2001.c:0 "Perhaps we can learn a thing or two from these Lamaists"
+ treasure_fleet.2001.d:0 "The Lamaists are far more enlightened than us!"
+ 
+
+ atef_form.0001.t:0 "The Roof of the World"
+ atef_form.0001.desc:0 "We have succeeded and conquered, following in the footsteps of the legendary Songtsen Gamp who carved out a space for Tibet on the world's map. Despite our hostile environment, Tibet has returned on the map, led by a capable ruler who will protect our heavenly empire from foreign incursions. \n\n[ROOT.Char.GetSheHe] has already accepted the title of mighty Dalai Lama of these holy lands, pledging [ROOT.Char.GetHerHis] strenght, bravery and loyalty to the cause of preserving Shangrilaism and her new empire."
+ atef_form.0001.a:0 "We have rightfully conquered our place on the map!"
+
+ atef_form.0002.t:0 "A Little Slice of Harmony"
+ atef_form.0002.desc:0 "Centuries of Han and Cantonese incursions and coastal persecution has hardened our tight-knit community of Tibetan Buddhists, who had to endure the long trip across the waves. Despite the hardship, we found ourselves a new home on a new continent, carving out a little piece to act as a sanctuary from persecution, repression and intolerance. \n\nThe future looks bright upon this new Tibet, which may now act as an Utopian Beyul: a safehaven for all Buddhists who are still spat out by foreign powers. Peace will reign in these valleys."
+ atef_form.0002.a:0 "May Guru Rinpoche protect our community"
+
+ # Opinion
+
+ rejects_dalai_lama:0 "Has rejected the Dalai Lama"
+ rejects_dalai_lama_light:0 "Has rejected the Dalai Lama"
+
+ chenrezig_lineage_name:0 "Special Doctrine"

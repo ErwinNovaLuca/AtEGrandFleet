@@ -103,11 +103,11 @@ religious_red_sun_1 = {
 }
 
 religious_lamaism_1 = { 
-    name = "Gendun Drupa"
+    name = "Tenzin"
     female = no
     disallow_random_traits = no
     
-    culture = tibetan
+    culture = khalka_mongols 
     religion = lamaism
 	
     

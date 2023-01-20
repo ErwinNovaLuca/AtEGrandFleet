@@ -1,4 +1,18 @@
-﻿three_beliefs = {
+﻿chenrezig_lineage = {
+	group = "special" # "not_creatable"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_chenrezig_lineage  
+	}
+	
+	special_doctrine_chenrezig_lineage = {
+		parameters = {
+			same_hof_hostility_override = 0
+		}
+	}
+}
+
+three_beliefs = {
 	group = "special" # "not_creatable"
 	
 	is_available_on_create = {

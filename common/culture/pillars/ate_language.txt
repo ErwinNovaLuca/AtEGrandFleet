@@ -3052,3 +3052,20 @@ language_cantonese = {
     }
     color = { 163 8 0 }
 }
+
+language_tibetan = { 
+    type = language
+    is_shown = {
+        language_is_shown_trigger = {
+            LANGUAGE = language_tibetan 
+        }
+    }
+    ai_will_do = {
+        value = 10 
+        if = {
+            limit = { has_cultural_pillar = language_tibetan }
+            multiply = 10
+        }
+    }
+    color = { 209 192 230 }
+}

@@ -11,6 +11,10 @@ form_thibet_decision = {
 	is_shown = {
 		is_ruler = yes
 		is_landed = yes
+		OR = {
+			has_faith = faith:lamaism
+			has_faith = faith:shangrilaism 
+		}
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -20,10 +24,6 @@ form_thibet_decision = {
 	}
 
 	is_valid = {	
-		OR = {
-			has_faith = faith:lamaism
-			has_faith = faith:shangrilaism 
-		}
 		highest_held_title_tier <= tier_kingdom
 		piety_level >= max_prestige_level
 		OR = {
@@ -31,7 +31,7 @@ form_thibet_decision = {
 			has_government = clan_government
 		}
 				any_held_title = {
-					count > 2
+					count > 1
 					tier = tier_kingdom
 				}
 	}
@@ -49,12 +49,15 @@ form_thibet_decision = {
 
 		#Events
 		
+		if = { 
+		limit = { has_faith = faith:shangrilaism } 
 		trigger_event = atef_form.0001
-
+		}
 		
-		
-
-	
+		else_if = { 
+		limit = { has_faith = faith:lamaism } 
+		trigger_event = atef_form.0002
+		}
 
 		#Can only happen once
 		add_to_global_variable_list = {
