@@ -1,0 +1,64 @@
+﻿name_list_tibetan = {
+
+	male_names = {
+		Tenzin Tenzing Gyatso Kelsang Nyima Dorji Dhondup Medo Lhamo Dolma Pema Tsering Gyaltsen Yeshe Sonam Diki Dawa Tashi Delek Deleh Rinchen Wangmo Dechen Bhuti Choedon Choekyi Chogden Chokphel Damchoe Dasel Dema Jangchup Jungney Kalden Khando Karma Kunchok Kunga Lekhshey Lhakpa Lhakyi Lhami Lhawang Ngonga Norbu Paljor Pasang Peldun Phuntsok Phurpa Rabgang Rabgyal Rabten Rangdol Rigsang Rigzin Tsundue Wangchuk Wangyag Woeser Woeten Yangdol Yangkey Yonten 
+		}
+
+	female_names = {
+		Tenzin Tenzing Gyatso Kelsang Nyima Dorji Dhondup Medo Lhamo Dolma Pema Tsering Gyaltsen Yeshe Sonam Diki Dawa Tashi Delek Deleh Rinchen Wangmo Dechen Bhuti Choedon Choekyi Chogden Chokphel Damchoe Dasel Dema Jangchup Jungney Kalden Khando Karma Kunchok Kunga Lekhshey Lhakpa Lhakyi Lhami Lhawang Ngonga Norbu Paljor Pasang Peldun Phuntsok Phurpa Rabgang Rabgyal Rabten Rangdol Rigsang Rigzin Tsundue Wangchuk Wangyag Woeser Woeten Yangdol Yangkey Yonten 
+		}
+
+	cadet_dynasty_names = {
+		"Ngapoi"
+		"Tethong"
+		"Lhamo"
+		"Zangpo"
+		"Lhalu"
+		"Tsangpa"
+		"Phagmodrupa"
+		"Songtsan"
+		"Yarlung"
+		"Ringpungpa"
+		"Sangye"
+		"Tsulthrim"
+		"Samten"
+		"Sherab"
+		"Nyo"
+		"Choje"
+		
+	}
+
+	dynasty_names = {
+		"Ngapoi"
+		"Tethong"
+		"Lhamo"
+		"Zangpo"
+		"Lhalu"
+		"Tsangpa"
+		"Phagmodrupa"
+		"Songtsan"
+		"Yarlung"
+		"Ringpungpa"
+		"Sangye"
+		"Tsulthrim"
+		"Samten"
+		"Sherab"
+		"Nyo"
+		"Choje"
+	}
+
+	bastard_dynasty_prefix = ""
+	patronym_suffix_male = ""
+	patronym_suffix_female = ""
+
+	pat_grf_name_chance = 45
+	mat_grf_name_chance = 15
+	father_name_chance = 30
+	pat_grm_name_chance = 40
+	mat_grm_name_chance = 10
+	mother_name_chance = 40
+
+	mercenary_names = {
+		{ name = mercenary_company_horde }
+	}
+}

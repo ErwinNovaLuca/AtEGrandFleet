@@ -36,6 +36,20 @@ d_ate_dalai_lama = {
 	de_jure_drift_disabled = yes
 }
 
+e_canton = {
+ 	color { 0 100 0 }
+ 	definite_form = yes
+ 	landless = yes
+
+ 	ai_primary_priority = {
+		add = @always_primary_score
+ 	}
+
+ 	no_automatic_claims = yes
+ 	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = no
+	de_jure_drift_disabled = yes
+}
 e_thibet = { #Kingdom of Thibet
 	color = { 170 126 229 }
 	definite_form = no

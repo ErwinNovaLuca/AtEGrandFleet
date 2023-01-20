@@ -247,6 +247,8 @@
 			color = { 126 173 173 }
 			icon = lamaism
 
+			custom_faith_icons = { lamaism_lion }
+
 			holy_site = philadelphia 
 			holy_site = richmond_budd 
 			holy_site = coconino_budd 

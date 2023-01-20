@@ -1,4 +1,10 @@
-﻿
+﻿e_canton = { 
+	2600.1.1 = {
+		holder = china_cao_haoyu_china2 
+
+	}
+}
+
 d_grand_master_red_sun = {
 	2666.1.1 = {
 		holder = religious_red_sun_1

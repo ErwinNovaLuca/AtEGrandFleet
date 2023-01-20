@@ -38,7 +38,8 @@
 
  culture_parameter_decision_learning_martial_art_form:1 "Gain a [decision|E] to train under tutelage of a #E Martial Artist#!."
 
-
+ e_canton:0 "The Canton Federation"
+ e_canton_adj:0 "Canton Federation"
 
  nick_eastern_dragon:1 "The Dragon from the East" 
 

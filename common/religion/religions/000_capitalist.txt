@@ -435,6 +435,8 @@
 			doctrine = special_doctrine_made_in_china
 			doctrine = special_doctrine_is_capitalist_faith
 
+			custom_faith_icons = { four_principled_green four_principled_purple four_principled_silver }
+
 			holy_site = los_angeles
 			holy_site = manhattan 
 			holy_site = vancouver

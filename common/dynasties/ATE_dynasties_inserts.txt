@@ -16,3 +16,8 @@ dynn_china_saina = {
     culture = han
     motto = "Difficult to Observe" 
 }
+
+dynn_china_cao_1 = {
+    name = Cao"
+    culture = cantonese
+}

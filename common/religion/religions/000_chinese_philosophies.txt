@@ -47,6 +47,8 @@
 		color = { 43 126 165 }
 		icon = taoism
 
+		custom_faith_icons = { taoism_1 taoism_2 }
+
 		traits = { 
 		virtues = { compassionate temperate }
 		sins = { sadistic stubborn drunkard }
@@ -75,6 +77,8 @@
 		holy_church_of_the_red_sun = {
 		color = { 78 4 0 }
 		icon = red_sun
+
+		custom_faith_icons = { red_sun_gray red_sun_red }
 
 		sins = { greedy }
 
@@ -116,6 +120,8 @@
 
 			traits = { virtues = { patient } }
 
+			custom_faith_icons = { Confucianism_blue Confucianism_cyan Confucianism_gray Confucianism_green Confucianism_pink Confucianism_red Confucianism_yellow }
+
 			holy_site = boston
 			holy_site = san_francisco
 			holy_site = seattle
@@ -139,6 +145,8 @@
 		icon = refined_confucianism
 		doctrine = special_doctrine_made_in_china 
 		doctrine = special_doctrine_three_beliefs_conf 	
+
+		custom_faith_icons = { refined_confucianism_blue refined_confucianism_china refined_confucianism_green refined_confucianism_purple refined_confucianism_red }
 
 		traits = {
 		virtues = { loyal forgiving }
@@ -167,6 +175,7 @@
 		icon = chinese_folk_religions
 		doctrine = special_doctrine_made_in_china 
 
+		custom_faith_icons = { chinese_folk_religions_1 chinese_folk_religions_2 }
 
 		traits = {
 		virtues = { brave }
