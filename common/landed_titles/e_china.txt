@@ -35,3 +35,8 @@ d_ate_dalai_lama = {
 	destroy_if_invalid_heir = yes
 	de_jure_drift_disabled = yes
 }
+
+e_thibet = { #Kingdom of Thibet
+	color = { 182 147 0 }
+	
+}

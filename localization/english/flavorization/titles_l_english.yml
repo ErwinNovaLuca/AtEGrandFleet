@@ -870,3 +870,11 @@
  
  emperor_republic_male_cantonese:0 "Jade Chairman"
  emperor_republic_female_cantonese:0 "Jade Chairwoman" 
+
+ e_thibet:0 "Thibet"
+ e_thibet_adj:0 "Thibetan" 
+
+ form_thibet_decision:0 "Proclaim Thibet" 
+ form_thibet_decision_desc:0 "With the supremacy of Tibetan buddhism firmly established over the Americas, the time has come to reestablish that mythical lost empire of Thibet. May the Buddha smile on our achievement."
+ form_thibet_decision_tooltip:0 "placeholder"
+ form_thibet_decision_confirm:0 "Thibet returns on the Map!"

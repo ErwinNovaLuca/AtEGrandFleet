@@ -1,0 +1,83 @@
+﻿
+#################FANMOD TERRITORY#################
+
+#Thibet
+form_thibet_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	major = yes
+	ai_check_interval = 12
+	desc = form_thibet_decision_desc
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:form_thibet_decision
+			}
+		}
+	}
+
+	is_valid = {	
+		OR = {
+			has_faith = faith:lamaism
+			has_faith = faith:shangrilaism 
+		}
+		highest_held_title_tier <= tier_kingdom
+		piety_level >= max_prestige_level
+		OR = {
+			has_government = feudal_government
+			has_government = clan_government
+		}
+				any_held_title = {
+					count > 2
+					tier = tier_kingdom
+				}
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+	}
+
+	effect = {
+		save_scope_as = thibet_former
+		form_thibet_decision_effects = yes
+		give_nickname = nick_the_restorer 
+
+		#Events
+		
+		trigger_event = atef_form.0001
+
+		
+		
+
+	
+
+		#Can only happen once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:form_thibet_decision
+		}
+		set_global_variable = {
+			name = form_thibet_decision
+			value = scope:thibet_former
+		}
+	}
+
+	cost = { 
+		piety = { value = 700 } 
+		prestige = { value = 700 }
+	}
+
+	ai_potential = {
+		# Only for the AI if independent ruler
+		is_independent_ruler = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

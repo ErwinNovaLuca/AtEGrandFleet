@@ -142,3 +142,47 @@ d_ate_dalai_lama ={
 	}
 
 }
+
+e_thibet ={
+	custom=yes
+	pattern="pattern__solid_designer.dds"
+	color1=yellow
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=blue_light
+		color2=white
+		texture="ce_waves_03.dds"
+		instance={
+			scale={ 0.870000 0.870000 }
+			depth=2.010000
+			rotation=134
+		}
+
+	}
+
+	colored_emblem={
+		color1=green
+		texture="ce_dharmachakra_satti.dds"
+		instance={
+			position={ 0.500000 0.320000 }
+			scale={ 0.710000 0.710000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 198 159 197 }
+		color2=rgb { 118 108 109 }
+		color3=green
+		texture="ce_snow_lion.dds"
+		instance={
+			position={ 0.500000 0.570000 }
+			scale={ 0.800000 0.800000 }
+			rotation=14
+		}
+
+	}
+
+}
