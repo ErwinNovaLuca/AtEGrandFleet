@@ -215,3 +215,35 @@ china_xiuying_china1 = {
     }
 
 }
+
+china_Hu_xianya_china1 = { # The Medic
+    name = "Hu"
+    female = yes
+    disallow_random_traits = yes
+    
+    culture = dai
+    religion = taoism 
+
+	trait = patient
+	trait = temperate 
+	trait = compassionate 
+	trait = education_learning_3
+	trait = adventurer 
+	trait = quick 
+	trait = whole_of_body
+	trait = herbalist 
+	trait = physician_3
+	
+    
+	2623.4.11 = {
+        birth = yes   
+ 
+	}
+
+
+
+    2656.1.1 = {
+    set_employer = china_lau_he_china1 
+    }
+
+}
